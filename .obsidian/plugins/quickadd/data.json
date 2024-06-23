@@ -5,14 +5,16 @@
       "name": "新建博客",
       "type": "Template",
       "command": false,
-      "templatePath": "",
+      "templatePath": "_Templates/template.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "{{value}}"
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "content/posts"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -23,28 +25,13 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
     }
   ],
-  "macros": [
-    {
-      "name": "新建博客",
-      "id": "e133130f-d346-4e80-8b8b-29be1603663d",
-      "commands": [
-        {
-          "name": "NewBlog",
-          "type": "UserScript",
-          "id": "c541739d-97f6-468d-8a7c-55a98fe30b6a",
-          "path": "obs_scripts/NewBlog.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    }
-  ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
