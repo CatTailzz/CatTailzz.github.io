@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/test.md",
+                "file": "content/posts/改个名字.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/test.md",
+                "file": "content/posts/改个名字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/test.md",
+                "file": "content/posts/改个名字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/test.md"
+                "file": "content/posts/改个名字.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
-    "content/posts/my-first-post.md",
     "content/posts/test.md",
+    "content/posts/改个名字.md",
+    "content/posts/my-first-post.md",
     "_Templates/template.md",
     "_Templates",
     "obs_scripts/NewBlog.js",
