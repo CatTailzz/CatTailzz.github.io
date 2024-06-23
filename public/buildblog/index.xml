@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>BuildBlogs on My New Hugo Site</title>
+    <link>http://localhost:1313/buildblog/</link>
+    <description>Recent content in BuildBlogs on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 02:01:35 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Newfile</title>
-      <link>http://localhost:1313/posts/newfile/</link>
-      <pubDate>Mon, 24 Jun 2024 02:01:35 +0800</pubDate>
-      <guid>http://localhost:1313/posts/newfile/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>2024m6d24h1m51s4</title>
-      <link>http://localhost:1313/posts/new/</link>
-      <pubDate>Mon, 24 Jun 2024 01:51:04 +0800</pubDate>
-      <guid>http://localhost:1313/posts/new/</guid>
-      <description>sadas</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Sun, 23 Jun 2024 23:11:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>hello? I am test</description>
-    </item>
+    <lastBuildDate>Sun, 23 Jun 2024 23:11:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/buildblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>持续化集成博客方案：Obsidian &#43; Hugo &#43; github actions</title>
       <link>http://localhost:1313/buildblog/%E6%8C%81%E7%BB%AD%E5%8C%96%E9%9B%86%E6%88%90%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88obsidian-&#43;-hugo-&#43;-github-actions/</link>

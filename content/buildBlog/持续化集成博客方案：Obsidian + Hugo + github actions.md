@@ -1,3 +1,10 @@
++++
+title = '持续化集成博客方案：Obsidian + Hugo + github actions'
+date = 2024-06-23T23:11:40+08:00
+draft = false
+
++++
+
 # 需求
 
 最近开始使用Obsidian这款笔记软件，主要看中是它的免费、拓展功能强大、本地存储。除了一些比较私人的笔记外，我更想把一些学习记录，阅读笔记等集成到博客上。正好之前接触过github actions这种自动部署发布的方式，这回打算把整个pipeline重走一遍。
@@ -17,11 +24,12 @@
 图床我选择了腾讯云的COS，按天计费，也有其他方式，整体费用基本可忽略不计。
 
 使用方式：
-	1. 控制台搜索对象存储进入面板
-	2. 在概览中，选择【创建存储桶】，进行一些简单配置，记得开启公有读
-	3. 安装piggo这款图床上传工具，我是M1的mac，打开时会提示已损坏，需要在命令行输入 `sudo xattr -d com.apple.quarantine /Applications/PicGo.app` 解决
-	4. 配置一些图床信息，其中一些密钥在【访问管理】中创建API密钥，COS存储的信息在【对象存储】-【存储桶列表】查看
-	5. 在Obsidian安装Image auto upload plugin插件，基本无需配置，即可在编辑时，通过拖动or粘贴方式自动上传图片。
+
+1. 控制台搜索对象存储进入面板
+2. 在概览中，选择【创建存储桶】，进行一些简单配置，记得开启公有读
+3. 安装piggo这款图床上传工具，我是M1的mac，打开时会提示已损坏，需要在命令行输入 `sudo xattr -d com.apple.quarantine /Applications/PicGo.app` 解决
+4. 配置一些图床信息，其中一些密钥在【访问管理】中创建API密钥，COS存储的信息在【对象存储】-【存储桶列表】查看
+5. 在Obsidian安装Image auto upload plugin插件，基本无需配置，即可在编辑时，通过拖动or粘贴方式自动上传图片。
 
 ## Hugo站点搭建
 

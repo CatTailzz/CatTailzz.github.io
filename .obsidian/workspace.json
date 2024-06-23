@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+                "file": "content/posts/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+                "file": "content/posts/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+                "file": "content/posts/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md"
+                "file": "content/posts/test.md"
               }
             }
           }
@@ -148,23 +148,26 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
+    "public/readingnotes/page/1/index.html",
+    "public/readingnotes/page/1",
+    "public/readingnotes/page",
+    "public/readingnotes/index.xml",
+    "public/readingnotes/index.html",
+    "public/readingnotes",
+    "content/readingNotes/adddd.md",
+    "content/readingNotes",
+    "public/buildblog/page/1/index.html",
+    "public/buildblog/持续化集成博客方案obsidian-+-hugo-+-github-actions/index.html",
+    "public/buildblog/page/1",
+    "public/buildblog/持续化集成博客方案obsidian-+-hugo-+-github-actions",
+    "content/建站/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "content/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "content/posts/test.md",
-    "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "public/posts/持续化集成博客方案obsidian-+-hugo-+-github-actions/index.html",
-    "public/posts/持续化集成博客方案obsidian-+-hugo-+-github-actions",
-    "public/posts/newfile/index.html",
-    "public/posts/newfile",
     "content/posts/newfile.md",
-    "public/posts/newfile1/index.html",
-    "public/posts/newfile1",
     "content/posts/newfile1.md",
     "content/posts/new.md",
-    "content/posts/adddd.md",
-    "public/posts/new/index.html",
-    "public/posts/new",
+    "content/阅读笔记/adddd.md",
     "content/posts/2024m6d24h1m51s4.md",
-    "public/posts/2024m6d24h1m51s4/index.html",
-    "public/posts/2024m6d24h1m51s4",
     "content/posts/add.md",
     "content/posts/addd.md",
     "content/posts/我的博客.md",
