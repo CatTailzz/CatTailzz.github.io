@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/adddd.md",
+                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/adddd.md",
+                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/adddd.md",
+                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/adddd.md"
+                "file": "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md"
               }
             }
           }
@@ -148,14 +148,23 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
+    "content/posts/test.md",
+    "content/posts/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "public/posts/持续化集成博客方案obsidian-+-hugo-+-github-actions/index.html",
+    "public/posts/持续化集成博客方案obsidian-+-hugo-+-github-actions",
+    "public/posts/newfile/index.html",
+    "public/posts/newfile",
+    "content/posts/newfile.md",
+    "public/posts/newfile1/index.html",
+    "public/posts/newfile1",
+    "content/posts/newfile1.md",
+    "content/posts/new.md",
+    "content/posts/adddd.md",
     "public/posts/new/index.html",
     "public/posts/new",
     "content/posts/2024m6d24h1m51s4.md",
-    "content/posts/new.md",
     "public/posts/2024m6d24h1m51s4/index.html",
     "public/posts/2024m6d24h1m51s4",
-    "content/posts/adddd.md",
-    "content/posts/test.md",
     "content/posts/add.md",
     "content/posts/addd.md",
     "content/posts/我的博客.md",
@@ -164,10 +173,6 @@
     "content/posts/2024m6d24h1m43s4.md",
     "content/posts/2024m6d24h1m40s53.md",
     "content/posts/改革名字.md",
-    "public/posts/2024m6d24h1m43s4/index.html",
-    "public/posts/2024m6d24h1m43s4",
-    "public/posts/2024m6d24h1m40s53/index.html",
-    "public/posts/2024m6d24h1m40s53",
     "content/posts/a.md",
     "content/posts/aaaaa.md",
     "content/posts/aaaa.md",
@@ -175,9 +180,6 @@
     "content/posts/改个名字.md",
     "content/posts/xin.md",
     "content/posts/my-first-post.md",
-    "public/posts/test/index.html",
-    "public/posts/test",
-    "public/posts/改个名字/index.html",
     "_Templates/template.md"
   ]
 }
