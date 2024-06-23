@@ -29,9 +29,37 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "98643971-a8b2-42f6-8b84-e7e3a1e1a381",
+      "name": "add by js",
+      "type": "Macro",
+      "command": false,
+      "macroId": "c7ec6e84-dc69-47f9-a74c-4ef8df33f01b"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "test",
+      "id": "c7ec6e84-dc69-47f9-a74c-4ef8df33f01b",
+      "commands": [
+        {
+          "name": "NewBlog",
+          "type": "UserScript",
+          "id": "ddfd75cd-2897-4ac9-b6e1-4cb32d6bbbfb",
+          "path": "obs_scripts/NewBlog.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "add by js",
+      "id": "6e03a656-7a99-4a11-9031-7c7d602d3249",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
