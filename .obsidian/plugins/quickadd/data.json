@@ -1,8 +1,15 @@
 {
   "choices": [
     {
+      "id": "98643971-a8b2-42f6-8b84-e7e3a1e1a381",
+      "name": "add by js",
+      "type": "Macro",
+      "command": false,
+      "macroId": "6e03a656-7a99-4a11-9031-7c7d602d3249"
+    },
+    {
       "id": "20dfeb2f-e000-43de-a67c-e2eeb3430002",
-      "name": "新建博客",
+      "name": "新建博客(别用了)",
       "type": "Template",
       "command": false,
       "templatePath": "_Templates/template.md",
@@ -29,34 +36,21 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
-    },
-    {
-      "id": "98643971-a8b2-42f6-8b84-e7e3a1e1a381",
-      "name": "add by js",
-      "type": "Macro",
-      "command": false,
-      "macroId": "c7ec6e84-dc69-47f9-a74c-4ef8df33f01b"
     }
   ],
   "macros": [
     {
-      "name": "test",
-      "id": "c7ec6e84-dc69-47f9-a74c-4ef8df33f01b",
+      "name": "add by js",
+      "id": "6e03a656-7a99-4a11-9031-7c7d602d3249",
       "commands": [
         {
           "name": "NewBlog",
           "type": "UserScript",
-          "id": "ddfd75cd-2897-4ac9-b6e1-4cb32d6bbbfb",
+          "id": "cccbfd2a-2fc7-48fc-9bcf-ed00b845e1d8",
           "path": "obs_scripts/NewBlog.js",
           "settings": {}
         }
       ],
-      "runOnStartup": true
-    },
-    {
-      "name": "add by js",
-      "id": "6e03a656-7a99-4a11-9031-7c7d602d3249",
-      "commands": [],
       "runOnStartup": false
     }
   ],

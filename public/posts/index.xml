@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/test/</link>
       <pubDate>Sun, 23 Jun 2024 23:11:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>hello? I am test</description>
     </item>
   </channel>
 </rss>

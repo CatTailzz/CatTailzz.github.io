@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/改个名字.md",
+                "file": "content/posts/adddd.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/改个名字.md",
+                "file": "content/posts/adddd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/改个名字.md",
+                "file": "content/posts/adddd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/改个名字.md"
+                "file": "content/posts/adddd.md"
               }
             }
           }
@@ -148,12 +148,36 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
+    "public/posts/new/index.html",
+    "public/posts/new",
+    "content/posts/2024m6d24h1m51s4.md",
+    "content/posts/new.md",
+    "public/posts/2024m6d24h1m51s4/index.html",
+    "public/posts/2024m6d24h1m51s4",
+    "content/posts/adddd.md",
     "content/posts/test.md",
+    "content/posts/add.md",
+    "content/posts/addd.md",
+    "content/posts/我的博客.md",
+    "content/posts/我的博.md",
+    "content/posts/aa.md",
+    "content/posts/2024m6d24h1m43s4.md",
+    "content/posts/2024m6d24h1m40s53.md",
+    "content/posts/改革名字.md",
+    "public/posts/2024m6d24h1m43s4/index.html",
+    "public/posts/2024m6d24h1m43s4",
+    "public/posts/2024m6d24h1m40s53/index.html",
+    "public/posts/2024m6d24h1m40s53",
+    "content/posts/a.md",
+    "content/posts/aaaaa.md",
+    "content/posts/aaaa.md",
+    "content/posts/new blog.md",
     "content/posts/改个名字.md",
+    "content/posts/xin.md",
     "content/posts/my-first-post.md",
-    "_Templates/template.md",
-    "_Templates",
-    "obs_scripts/NewBlog.js",
-    "obs_scripts"
+    "public/posts/test/index.html",
+    "public/posts/test",
+    "public/posts/改个名字/index.html",
+    "_Templates/template.md"
   ]
 }
