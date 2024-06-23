@@ -148,6 +148,10 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
+    "content/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "public/readingnotes/持续化集成博客方案obsidian-+-hugo-+-github-actions/index.html",
+    "public/readingnotes/持续化集成博客方案obsidian-+-hugo-+-github-actions",
+    "content/readingNotes/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "public/readingnotes/page/1/index.html",
     "public/readingnotes/page/1",
     "public/readingnotes/page",
@@ -157,11 +161,7 @@
     "content/readingNotes/adddd.md",
     "content/readingNotes",
     "public/buildblog/page/1/index.html",
-    "public/buildblog/持续化集成博客方案obsidian-+-hugo-+-github-actions/index.html",
-    "public/buildblog/page/1",
-    "public/buildblog/持续化集成博客方案obsidian-+-hugo-+-github-actions",
     "content/建站/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "content/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "content/posts/test.md",
     "content/posts/newfile.md",
     "content/posts/newfile1.md",
@@ -182,7 +182,6 @@
     "content/posts/new blog.md",
     "content/posts/改个名字.md",
     "content/posts/xin.md",
-    "content/posts/my-first-post.md",
-    "_Templates/template.md"
+    "content/posts/my-first-post.md"
   ]
 }
