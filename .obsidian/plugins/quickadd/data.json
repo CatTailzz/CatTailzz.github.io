@@ -58,7 +58,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "0.14.0",
+  "version": "1.9.0",
   "disableOnlineFeatures": true,
   "ai": {
     "defaultModel": "Ask me",
@@ -117,6 +117,6 @@
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
     "setVersionAfterUpdateModalRelease": true,
-    "addDefaultAIProviders": false
+    "addDefaultAIProviders": true
   }
 }

@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReadingNotes on My New Hugo Site</title>
-    <link>https://example.org/readingnotes/</link>
+    <link>http://localhost:1313/readingnotes/</link>
     <description>Recent content in ReadingNotes on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/readingnotes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 20:03:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/readingnotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql45</title>
+      <link>http://localhost:1313/readingnotes/mysql45/mysql45/</link>
+      <pubDate>Mon, 24 Jun 2024 20:03:49 +0800</pubDate>
+      <guid>http://localhost:1313/readingnotes/mysql45/mysql45/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Effective Java</title>
+      <link>http://localhost:1313/readingnotes/effective-java/effective-java/</link>
+      <pubDate>Mon, 24 Jun 2024 20:03:16 +0800</pubDate>
+      <guid>http://localhost:1313/readingnotes/effective-java/effective-java/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
