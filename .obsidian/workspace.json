@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/readingNotes/effective-java/effective-java.md",
+                "file": "content/posts/如何在Markdown中打印文件结构树.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/readingNotes/effective-java/effective-java.md",
+                "file": "content/posts/如何在Markdown中打印文件结构树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/readingNotes/effective-java/effective-java.md",
+                "file": "content/posts/如何在Markdown中打印文件结构树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/readingNotes/effective-java/effective-java.md"
+                "file": "content/posts/如何在Markdown中打印文件结构树.md"
               }
             }
           }
@@ -148,41 +148,51 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
-    "public/readingnotes/mysql45/mysql45/index.html",
-    "public/readingnotes/mysql45/mysql45",
-    "public/readingnotes/mysql45",
-    "public/readingnotes/effective-java/effective-java/index.html",
-    "public/readingnotes/effective-java/effective-java",
-    "public/readingnotes/effective-java",
-    "public/posts/微服务初见探索/index.html",
-    "public/posts/微服务初见探索",
-    "public/posts/字节码插桩技术初见/index.html",
-    "public/posts/字节码插桩技术初见",
-    "public/posts/nifisdk开发流程/index.html",
-    "content/readingNotes/MySQL45/mysql45.md",
-    "content/readingNotes/effective-java.md",
-    "content/readingNotes/effective-java/effective-java.md",
-    "content/posts/CICD打包部署流程梳理.md",
-    "content/readingNotes/adddd.md",
-    "content/readingNotes/MySQL45.md",
-    "content/posts/NiFiSDK开发流程.md",
-    "content/posts/Java日志打印最佳实践.md",
-    "content/posts/git常见场景及解决方案.md",
-    "content/posts/字节码插桩技术初见.md",
-    "content/posts/微服务初见探索.md",
-    "content/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "content/posts/test1.md",
-    "content/posts/test.md",
-    "content/posts/newfile.md",
-    "content/posts/new.md",
-    "content/readingNotes/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "content/建站/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "content/posts/newfile1.md",
-    "content/阅读笔记/adddd.md",
-    "content/posts/2024m6d24h1m51s4.md",
-    "content/posts/add.md",
-    "content/posts/addd.md",
-    "content/posts/我的博客.md",
-    "content/posts/我的博.md"
+    "public/images/wechatpay.png",
+    "public/images/alipay.png",
+    "static/images/wechatpay.png",
+    "static/images/alipay.png",
+    "public/images/3921719465537_.pic.jpg",
+    "static/images/3911719465386_.pic.jpg",
+    "static/images/3921719465537_.pic.jpg",
+    "public/images/3911719465386_.pic.jpg",
+    "public/images/3911719465386_.pic_thumb.jpg",
+    "static/images/3911719465386_.pic_thumb.jpg",
+    "static/images",
+    "public/lib/simple-icons/icons/tencentqq.min.svg",
+    "public/lib/simple-icons/icons",
+    "public/lib/simple-icons",
+    "public/collections/index.xml",
+    "public/collections/index.html",
+    "public/collections",
+    "public/tags/index.xml",
+    "public/categories/index.xml",
+    "public/tags/博客搭建/page/1/index.html",
+    "public/tags/博客搭建/page/1",
+    "themes/FixIt/demo/content/posts/first_post.md",
+    "themes/FixIt/layouts/_default/single.md",
+    "themes/FixIt/archetypes/post-bundle/index.md",
+    "themes/FixIt/layouts/index.readme.md",
+    "themes/FixIt/archetypes/posts.md",
+    "themes/FixIt/archetypes/friends.md",
+    "themes/FixIt/archetypes/default.md",
+    "themes/FixIt/SECURITY.md",
+    "themes/FixIt/README.zh-cn.md",
+    "themes/FixIt/README.md",
+    "themes/FixIt/CONTRIBUTING.md",
+    "themes/FixIt/CODE_OF_CONDUCT.md",
+    "themes/FixIt-0.3.8/layouts/_default/single.md",
+    "themes/FixIt-0.3.8/layouts/index.readme.md",
+    "themes/FixIt-0.3.8/demo/content/posts/first_post.md",
+    "themes/FixIt-0.3.8/archetypes/post-bundle/index.md",
+    "themes/FixIt-0.3.8/archetypes/posts.md",
+    "themes/FixIt-0.3.8/archetypes/default.md",
+    "themes/FixIt-0.3.8/archetypes/friends.md",
+    "themes/FixIt-0.3.8/SECURITY.md",
+    "themes/FixIt-0.3.8/README.zh-cn.md",
+    "themes/FixIt-0.3.8/README.md",
+    "themes/FixIt-0.3.8/CONTRIBUTING.md",
+    "themes/FixIt-0.3.8/CODE_OF_CONDUCT.md",
+    "content/posts/test/test.md"
   ]
 }

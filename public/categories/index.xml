@@ -1,11 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Categories on My New Hugo Site</title>
+    <title>Categories - 分类 - CatTail&#39;s Blog</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <description>Categories - 分类 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 25 Jun 2024 20:20:20 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>Effective-Java</title>
+  <link>http://localhost:1313/categories/effective-java/</link>
+  <pubDate>Tue, 25 Jun 2024 20:20:20 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/categories/effective-java/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Mysql45讲</title>
+  <link>http://localhost:1313/categories/mysql45%E8%AE%B2/</link>
+  <pubDate>Mon, 24 Jun 2024 20:03:49 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/categories/mysql45%E8%AE%B2/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>博客搭建</title>
+  <link>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+  <pubDate>Sun, 23 Jun 2024 23:11:40 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
