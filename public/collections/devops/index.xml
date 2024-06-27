@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>DevOps - 合集 - CatTail&#39;s Blog</title>
+    <link>http://localhost:1313/collections/devops/</link>
+    <description>DevOps - 合集 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 24 Jun 2024 19:52:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/collections/devops/" rel="self" type="application/rss+xml" /><item>
+  <title>CI/CD打包部署流程梳理</title>
+  <link>http://localhost:1313/posts/devops/cicd%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B%E6%A2%B3%E7%90%86/</link>
+  <pubDate>Mon, 24 Jun 2024 19:52:43 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/posts/devops/cicd%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B%E6%A2%B3%E7%90%86/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

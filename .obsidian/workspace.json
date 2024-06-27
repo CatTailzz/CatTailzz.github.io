@@ -11,12 +11,8 @@
             "id": "cc7a286f77d36d56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/如何在Markdown中打印文件结构树.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/如何在Markdown中打印文件结构树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/如何在Markdown中打印文件结构树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/posts/如何在Markdown中打印文件结构树.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,27 +140,39 @@
   },
   "active": "cc7a286f77d36d56",
   "lastOpenFiles": [
-    "public/images/wechatpay.png",
-    "public/images/alipay.png",
-    "static/images/wechatpay.png",
-    "static/images/alipay.png",
-    "public/images/3921719465537_.pic.jpg",
-    "static/images/3911719465386_.pic.jpg",
-    "static/images/3921719465537_.pic.jpg",
-    "public/images/3911719465386_.pic.jpg",
-    "public/images/3911719465386_.pic_thumb.jpg",
-    "static/images/3911719465386_.pic_thumb.jpg",
-    "static/images",
+    "public/lib/fuse/fuse.min.js",
+    "public/lib/fuse",
+    "public/lib/autocomplete/autocomplete.min.js",
+    "public/lib/autocomplete",
+    "themes/FixIt/layouts/_default/about.html",
+    "public/collections/博客搭建/index.xml",
+    "public/collections/杂七杂八/index.xml",
+    "public/collections/devops/index.xml",
+    "public/collections/微服务/index.xml",
+    "public/collections/字节码/index.xml",
+    "public/collections/git/index.xml",
     "public/lib/simple-icons/icons/tencentqq.min.svg",
-    "public/lib/simple-icons/icons",
-    "public/lib/simple-icons",
-    "public/collections/index.xml",
-    "public/collections/index.html",
-    "public/collections",
-    "public/tags/index.xml",
-    "public/categories/index.xml",
-    "public/tags/博客搭建/page/1/index.html",
-    "public/tags/博客搭建/page/1",
+    "public/images/loading.min.svg",
+    "public/lib/lightgallery/images/loading.gif",
+    "public/lib/lightgallery/fonts/lg.svg",
+    "public/icon/safari-pinned-tab.svg",
+    "public/icon/mstile-150x150.png",
+    "public/icon/favicon-32x32.png",
+    "public/icon/favicon-16x16.png",
+    "public/icon/apple-touch-icon.png",
+    "public/icon/android-chrome-256x256.png",
+    "content/about/index.md",
+    "content/index.md",
+    "content/about/_index.md",
+    "content/posts/如何在Markdown中打印文件结构树.md",
+    "content/posts/others/如何在Markdown中打印文件结构树.md",
+    "content/posts/大数据/NiFiSDK开发流程.md",
+    "content/posts/git/git常见场景及解决方案.md",
+    "content/posts/微服务/微服务初见探索.md",
+    "content/posts/DevOps/CICD打包部署流程梳理.md",
+    "content/posts/Java/Java日志打印最佳实践.md",
+    "content/posts/Java/字节码插桩技术初见.md",
+    "content/posts/NiFiSDK开发流程.md",
     "themes/FixIt/demo/content/posts/first_post.md",
     "themes/FixIt/layouts/_default/single.md",
     "themes/FixIt/archetypes/post-bundle/index.md",
@@ -181,18 +185,6 @@
     "themes/FixIt/README.md",
     "themes/FixIt/CONTRIBUTING.md",
     "themes/FixIt/CODE_OF_CONDUCT.md",
-    "themes/FixIt-0.3.8/layouts/_default/single.md",
-    "themes/FixIt-0.3.8/layouts/index.readme.md",
-    "themes/FixIt-0.3.8/demo/content/posts/first_post.md",
-    "themes/FixIt-0.3.8/archetypes/post-bundle/index.md",
-    "themes/FixIt-0.3.8/archetypes/posts.md",
-    "themes/FixIt-0.3.8/archetypes/default.md",
-    "themes/FixIt-0.3.8/archetypes/friends.md",
-    "themes/FixIt-0.3.8/SECURITY.md",
-    "themes/FixIt-0.3.8/README.zh-cn.md",
-    "themes/FixIt-0.3.8/README.md",
-    "themes/FixIt-0.3.8/CONTRIBUTING.md",
-    "themes/FixIt-0.3.8/CODE_OF_CONDUCT.md",
-    "content/posts/test/test.md"
+    "themes/FixIt-0.3.8/layouts/_default/single.md"
   ]
 }
