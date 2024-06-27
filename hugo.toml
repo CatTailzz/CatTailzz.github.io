@@ -81,7 +81,7 @@ enableEmoji = true
     name = "CatTail"
     email = ""
     link = "https://github.com/CatTailzz"
-    avatar = "icon/android-chrome-192x192.png"
+    avatar = "/icon/android-chrome-192x192.png"
   
 
 
