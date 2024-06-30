@@ -1,4 +1,6 @@
 {
   "cssTheme": "Border",
-  "accentColor": "#0c0c0e"
+  "accentColor": "#0c0c0e",
+  "showViewHeader": true,
+  "nativeMenus": true
 }
