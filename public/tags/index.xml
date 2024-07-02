@@ -1,0 +1,87 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Tags - 标签 - CatTail&#39;s Blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Tags - 标签 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 25 Jun 2024 20:20:20 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+  <title>Markdown</title>
+  <link>http://localhost:1313/tags/markdown/</link>
+  <pubDate>Tue, 25 Jun 2024 20:20:20 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/markdown/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>MySQL</title>
+  <link>http://localhost:1313/tags/mysql/</link>
+  <pubDate>Mon, 24 Jun 2024 20:03:49 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/mysql/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>阅读笔记</title>
+  <link>http://localhost:1313/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+  <pubDate>Mon, 24 Jun 2024 20:03:49 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Java</title>
+  <link>http://localhost:1313/tags/java/</link>
+  <pubDate>Mon, 24 Jun 2024 20:03:16 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/java/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>DevOps</title>
+  <link>http://localhost:1313/tags/devops/</link>
+  <pubDate>Mon, 24 Jun 2024 19:52:43 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/devops/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>字节码</title>
+  <link>http://localhost:1313/tags/%E5%AD%97%E8%8A%82%E7%A0%81/</link>
+  <pubDate>Mon, 24 Jun 2024 19:45:06 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/%E5%AD%97%E8%8A%82%E7%A0%81/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>微服务</title>
+  <link>http://localhost:1313/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</link>
+  <pubDate>Mon, 24 Jun 2024 19:33:38 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Git</title>
+  <link>http://localhost:1313/tags/git/</link>
+  <pubDate>Mon, 24 Jun 2024 19:32:17 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/git/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>NiFi</title>
+  <link>http://localhost:1313/tags/nifi/</link>
+  <pubDate>Mon, 24 Jun 2024 19:27:28 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/nifi/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>博客搭建</title>
+  <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+  <pubDate>Sun, 23 Jun 2024 23:11:40 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
