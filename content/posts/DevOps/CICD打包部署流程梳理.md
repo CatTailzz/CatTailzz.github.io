@@ -1,7 +1,17 @@
-+++
-title = 'CI/CD打包部署流程梳理'
-date = 2024-06-24T19:52:43+08:00
-tags = ["DevOps"]
-categories = ["DevOps"]
-collections = ["DevOps"]
-+++
+---
+title: CICD打包部署流程梳理
+subtitle: 
+date: 2024-07-08T14:14:48+08:00
+slug: e1d5525
+tags:
+  - draft
+categories:
+  - draft
+collections:
+  - draft
+password: 
+message: 
+draft: true
+---
+
+

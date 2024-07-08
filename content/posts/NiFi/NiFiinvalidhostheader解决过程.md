@@ -4,13 +4,14 @@ subtitle:
 date: 2024-07-02T23:04:41+08:00
 slug: 8c56445
 tags:
-  - draft
+  - NiFi
 categories:
-  - draft
+  - NiFI
 collections:
-  - draft
+  - NiFi
 password: 
-message:
+message: 
+draft: false
 ---
 # 问题起因
 

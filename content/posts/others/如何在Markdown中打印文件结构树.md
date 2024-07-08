@@ -1,9 +1,17 @@
-+++
-title = '如何在Markdown中打印文件结构树'
-date = 2024-06-25T20:20:20+08:00
-tags = ["Markdown"]
-categories = ["杂七杂八"]
-collections = ["杂七杂八"]
-+++
+---
+title: 如何在Markdown中打印文件结构树
+subtitle: 
+date: 2024-07-03T12:12:07+08:00
+slug: cb77209
+tags:
+  - 其他
+categories:
+  - 其他
+collections:
+  - 其他
+password: 
+message: 
+draft: true
+---
 
-sadas
+

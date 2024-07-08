@@ -1,8 +1,8 @@
 ---
-title: NiFiSDK开发流程
+title: NiFi Processor自定义开发
 subtitle: 
-date: 2024-07-08T14:12:18+08:00
-slug: fc45476
+date: 2024-07-08T11:35:50+08:00
+slug: 247fe3e
 tags:
   - NiFi
 categories:
@@ -11,7 +11,7 @@ collections:
   - NiFi
 password: 
 message: 
-draft: false
+draft: true
 ---
 
 

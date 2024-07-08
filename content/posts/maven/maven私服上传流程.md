@@ -1,8 +1,8 @@
 ---
-title: 字节码插桩技术初见
+title: Maven私服上传流程
 subtitle: 
-date: 2024-07-08T14:13:32+08:00
-slug: 6c2bfa6
+date: 2024-07-08T14:11:33+08:00
+slug: fdabef6
 tags:
   - draft
 categories:

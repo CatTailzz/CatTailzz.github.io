@@ -1,11 +1,18 @@
-+++
-title = 'Git常见场景及解决方案'
-date = 2024-06-24T19:32:17+08:00
-tags = ["git"]
-categories = ["git"]
-collections = ["git"]
-+++
-
+---
+title: Gitch
+subtitle: 
+date: 2024-07-08T14:14:02+08:00
+slug: 213536b
+tags:
+  - draft
+categories:
+  - draft
+collections:
+  - draft
+password: 
+message: 
+draft: false
+---
 # 用git解决科研实验的版本控制
 
 ## 起因
@@ -23,4 +30,6 @@ collections = ["git"]
 各个pipeline需要用到的预训练模型、数据集等考虑抽离为公共的库，实验结果也抽离为独立的库，每次跑实验做好几件事：实验动机+结果位置在笔记中备案、后台运行并记录日志防暴毙。
 
 具体的我都写在科研项目的README.md里了
+
+
 

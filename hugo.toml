@@ -240,6 +240,11 @@ enableEmoji = true
       auto = true
       # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
       position = "right"
+    # Table Of Contents settings
+    [markup.tableOfContents]
+      ordered = false
+      startLevel = 1
+      endLevel = 4
     # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
     [params.page.expirationReminder]
       enable = false

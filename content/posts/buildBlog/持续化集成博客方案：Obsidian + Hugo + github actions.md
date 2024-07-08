@@ -1,11 +1,18 @@
-+++
-title = '持续化集成博客方案：Obsidian + Hugo + github actions'
-date = 2024-06-23T23:11:40+08:00
-tags = ["博客搭建"]
-categories = ["博客搭建"]
-collections = ["博客搭建"]
+---
+title: 持续化集成博客方案：Obsidian + Hugo + github actions
+subtitle: 
+date: 2024-06-23T23:11:40+08:00
+tags:
+  - 博客搭建
+categories:
+  - 博客搭建
+collections:
+  - 博客搭建
+password: 
+message: 
+draft: true
+---
 
-+++
 
 # 需求
 

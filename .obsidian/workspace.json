@@ -20,43 +20,59 @@
             }
           },
           {
-            "id": "972ec71d499bc349",
+            "id": "380ac1dcc078c51c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e7c7406c0dd322b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
+                "file": "content/posts/Java/枚举类的好处.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b0c842da968b2dea",
+            "id": "a5ef866ad44c1979",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f4c17d2fd73b3f5",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "4b31c604307f69d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/others/写博客tips.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:draft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+                "file": "content/posts/others/写博客tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+                "file": "content/posts/others/写博客tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md"
+                "file": "content/posts/others/写博客tips.md"
               }
             }
           }
@@ -184,33 +200,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0c842da968b2dea",
+  "active": "4b31c604307f69d5",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+    "content/posts/others/如何在Markdown中打印文件结构树.md",
     "content/posts/others/沟通指南.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Linux and Shell.md",
-    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
     "content/posts/NiFi/NiFiSDK开发流程.md",
-    "未命名.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-    "public/js/fixit-decryptor.js",
-    "public/lib/crypto-js/enc-base64.min.js",
-    "public/lib/crypto-js/sha256.min.js",
-    "public/lib/crypto-js/md5.min.js",
-    "public/lib/crypto-js/core.min.js",
-    "public/lib/crypto-js",
-    "content/posts/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+    "content/posts/NiFi/NiFi性能调优.md",
+    "content/posts/NiFi/NiFi-processor自定义开发.md",
+    "content/posts/maven/maven私服上传流程.md",
     "content/posts/Java/Java日志打印最佳实践.md",
     "content/posts/Java/字节码插桩技术初见.md",
-    "content/posts/others/如何在Markdown中打印文件结构树.md",
-    "public/collections/沟通/index.xml",
-    "public/collections/沟通/page/1/index.html",
-    "public/collections/沟通/page/1",
-    "public/collections/沟通/page",
-    "content/posts/others/测试.md",
-    "content/posts/others/未命名.md",
+    "content/posts/Java/枚举类的好处.md",
+    "content/posts/git/git常见场景及解决方案.md",
+    "content/posts/DevOps/CICD打包部署流程梳理.md",
+    "content/posts/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "content/posts/微服务/微服务初见探索.md",
     "🏡knowledgeGarden/🎯TODO.md",
+    "content/posts/others/写博客tips.md",
+    "content/posts/bookNotes/effective-java/effective-java.md",
+    "content/posts/git/git常见场景及解决方案1.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+    "content/NiFi/NiFi性能调优.md",
+    "content/NiFi",
+    "未命名.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
+    "public/collections/其他/index.xml",
+    "public/categories/其他/index.xml",
+    "public/categories/nifi/index.xml",
+    "public/tags/其他/page/1/index.html",
+    "public/tags/其他/page/1",
+    "public/tags/其他/page",
+    "public/tags/其他/index.xml",
+    "public/tags/其他/index.html",
+    "public/tags/其他",
+    "themes/FixIt/archetypes/post-bundle/index.md",
     "public/lib/simple-icons/icons/tencentqq.min.svg",
     "public/images/loading.min.svg",
     "public/lib/lightgallery/images/loading.gif",
@@ -220,17 +247,6 @@
     "public/icon/favicon-32x32.png",
     "public/icon/favicon-16x16.png",
     "public/icon/apple-touch-icon.png",
-    "public/icon/android-chrome-256x256.png",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Docker and K8S.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/未命名.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/git.md",
-    "🏡knowledgeGarden/🧩杂七杂八/记录/mac上由VNP导致的代理频繁更换问题.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/vscode.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/macbook.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/chrome.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/IDEA.md",
-    "🏡knowledgeGarden/🧩杂七杂八/记录/Mac配置指北.md",
-    "🏡knowledgeGarden/🧩杂七杂八/记录/考研记录.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md"
+    "public/icon/android-chrome-256x256.png"
   ]
 }
