@@ -1,5 +1,5 @@
 ---
-title: Gitch
+title: git常见场景及解决方案
 subtitle: 
 date: 2024-07-08T14:14:02+08:00
 slug: 213536b
