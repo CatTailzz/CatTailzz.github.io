@@ -10,7 +10,7 @@ collections:
   - 博客搭建
 password: 
 message: 
-draft: true
+draft: false
 ---
 
 
