@@ -61,7 +61,10 @@ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富�
 └── pom.xml
 ```
 
-它就是NiFi官方提供的扩展方式，提供了一个小demo，我们要做的就是在 nifi-nifi-example-processors 的src下开发自定义的组件 --> 打包为nar包 --> 部署到nifi环境的lib包下。
+它就是NiFi官方提供的扩展方式，提供了一个小demo，我们要做的就是：
+1. 在 nifi-nifi-example-processors 的 src 下开发自定义的组件
+2. 打包为nar包（NiFi自定义的）
+3. 部署到nifi环境的lib包下
 
 ## 结构介绍（不想看跳过）
 
