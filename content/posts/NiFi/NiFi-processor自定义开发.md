@@ -61,10 +61,60 @@ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富�
 └── pom.xml
 ```
 
-它就是NiFi官方提供的扩展方式，提供了一个小demo，我们要做的就是：
-1. 在 nifi-nifi-example-processors 的 src 下开发自定义的组件
-2. 打包为nar包（NiFi自定义的）
-3. 部署到nifi环境的lib包下
+它就是NiFi官方提供的扩展方式，提供了一个小demo，其中 `nifi-nifi-example-nar` 下只有一个pom文件：
 
-## 结构介绍（不想看跳过）
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements. See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License. You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.nifi</groupId>
+        <artifactId>nifi-example-bundle</artifactId>
+        <version>1.23.2</version>
+    </parent>
+
+    <artifactId>nifi-nifi-example-nar</artifactId>
+    <packaging>nar</packaging>
+    <properties>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <source.skip>true</source.skip>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
+            <artifactId>nifi-nifi-example-processors</artifactId>
+        </dependency>
+    </dependencies>
+</project>
+
+```
+
+他所做的就是把主要功能部分的 `nifi-nifi-example-processors` 的 jar 包打包为 nar 包。
+
+`nifi-nifi-example-processors` 是主要部分，我们需要编写自定义的 Processor ，并让他继承 `AbstractProcessor` ，重写其中的方法，并在 resources 的 META-INF 下声明实现类的全路径，有点类似 spring-boot-starter的开发方式。
+
+我们要做的就是：
+1. 在 nifi-nifi-example-processors 的 src 下开发自定义的组件
+2. 在 nifi-nifi-example-processors 的 resources 下声明自定义组件的全路径
+3. 打包为nar包（NiFi自定义的）
+4. 部署nar包到nifi环境的lib下
+
+
+
 
