@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/NiFi/NiFiinvalidhostheader解决过程.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md"
               }
             }
           }
@@ -212,8 +212,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7bb4ea6ce8d1c133",
+  "active": "a5ef866ad44c1979",
   "lastOpenFiles": [
+    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
     "content/posts/NiFi/NiFi-processor自定义开发.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/buildBlog/持续化集成博客方案：Obsidian + Hugo + github actions.md",
@@ -223,7 +224,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "content/posts/git/git常见场景及解决方案.md",
     "content/posts/NiFi/NiFiSDK开发流程.md",
-    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
     "content/posts/NiFi/NiFi性能调优.md",
     "content/posts/maven/maven私服上传流程.md",
     "content/posts/Java/Java日志打印最佳实践.md",
