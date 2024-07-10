@@ -98,10 +98,24 @@
           {
             "id": "7f0488a614611f32",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7e3dc9b28c6156d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,6 +252,8 @@
   },
   "active": "7f0488a614611f32",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
     "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
@@ -262,9 +278,7 @@
     "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/bookNotes/effective-java/effective-java.md",
     "content/posts/git/git常见场景及解决方案1.md",
-    "content/NiFi/NiFi性能调优.md",
     "content/NiFi",
-    "未命名.md",
     "public/collections/其他/index.xml",
     "public/categories/其他/index.xml",
     "public/categories/nifi/index.xml",
