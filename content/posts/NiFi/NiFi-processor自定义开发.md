@@ -109,7 +109,7 @@ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富�
 
 他所做的就是把主要功能部分的 `nifi-nifi-example-processors` 的 jar 包打包为 nar 包。
 
-`nifi-nifi-example-processors` 是主要部分，我们需要编写自定义的 Processor ，并让他继承 `AbstractProcessor` ，重写其中的方法，并在 resources 的 META-INF 下声明实现类的全路径，有点类似 spring-boot-starter的开发方式。
+`nifi-nifi-example-processors` 是主要部分，我们需要编写自定义的 `Processor` ，并让他继承 `AbstractProcessor` ，重写其中的方法，并在 `resources` 的 META-INF 下声明实现类的全路径，有点类似 spring-boot-starter的开发方式。
 
 我们要做的就是：
 1. 在 nifi-nifi-example-processors 的 src 下开发自定义的组件
@@ -117,6 +117,8 @@ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富�
 3. 打包为nar包（NiFi自定义的）
 4. 部署nar包到nifi环境的lib下
 
-## 
+## 官方核心代码介绍
+
+官方提供了一个自定义的 `Processor` ，叫 `WriteResourceToStream` 
 
 
