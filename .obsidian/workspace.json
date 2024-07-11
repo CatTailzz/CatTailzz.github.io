@@ -86,19 +86,19 @@
             }
           },
           {
-            "id": "426fb3469449aaa1",
+            "id": "88382a58d1fa2ef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+                "file": "content/posts/draft/draft.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:draft",
+                "query": "tag:#告警内容是什么",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/draft/draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/draft/draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md"
+                "file": "content/posts/draft/draft.md"
               }
             }
           }
@@ -226,21 +226,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a5ef866ad44c1979",
+  "active": "88382a58d1fa2ef5",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "content/posts/draft/draft.md",
+    "content/posts/draft",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
+    "未命名.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
     "content/posts/NiFi/NiFi-processor自定义开发.md",
-    "未命名.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/简历.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "content/posts/DevOps/DolphinScheduler持续化集成方案.md",
     "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
     "content/posts/others/写博客tips.md",
     "content/posts/others/沟通指南.md",
@@ -253,7 +255,6 @@
     "content/posts/Java/枚举类的好处.md",
     "content/posts/DevOps/CICD打包部署流程梳理.md",
     "content/posts/微服务/微服务初见探索.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "content/NiFi",
     "public/collections/其他/index.xml",
     "public/categories/其他/index.xml",
@@ -263,7 +264,6 @@
     "public/tags/其他/page",
     "public/tags/其他/index.xml",
     "public/tags/其他/index.html",
-    "public/tags/其他",
     "public/lib/simple-icons/icons/tencentqq.min.svg",
     "public/images/loading.min.svg",
     "public/lib/lightgallery/images/loading.gif",
