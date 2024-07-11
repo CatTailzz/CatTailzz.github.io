@@ -292,10 +292,11 @@ public void onTrigger(final ProcessContext context,
 
 ## 自己动手实现一个
 
-想自己根据需求写一个 processor 有两方面的难点，一方面是自己的功能如何实现，另一方面是如何利用官方封装的组件更好地开发。这里我们关注第二方面，因为官方提供的 demo 实在简陋，遗漏了一些开发所需的功能演示。
+想自己根据需求写一个 processor 有两方面的难点，一方面是自己的功能如何实现，另一方面是如何利用官方封装的组件更好地开发。这里我们关注第二方面，因为官方提供的 demo 实在简陋，遗漏了一些开发所需的重要功能，比如属性。
 
 功能：假设我需要对数据流进行敏感打标，具体的实现已经有SDK算子了，在这里只需要调用，并把打标结果存储到 `flowFile` 的属性中，以供后续节点处理并持久化
 
+这里只展示一下额外需要新增哪些
 ### 1. 定义属性
 
 ``` Java
@@ -315,5 +316,50 @@ public static final PropertyDescriptor TEXT_PROPERTY = new PropertyDescriptor
             .build();
 ```
 
-- `flowFile` 分为正文（content）和属性（Attributes）两部分，为了不影响实际数据内容，对于一些中间结果我们可以选择保存在属性中，这里设置了一个名为 `Text` 的属性，并支持 EL 表达式，以从上一个节点的数据流提取属性信息
+- `flowFile` 分为正文（content）和属性（Attributes）两部分，为了不影响实际数据内容，对于一些中间结果我们可以选择保存在属性中，这里设置了一个名为 `Text` 的属性，并支持 EL 表达式，以从上一个节点的数据流提取 / 继承属性信息
+
+### 2. 触发部分实现
+
+```Java
+@Override
+    public void onTrigger(ProcessContext context, ProcessSession session) throws ProcessException {
+        FlowFile flowFile = session.get();
+        if (flowFile == null) {
+            return;
+        }
+
+        final String text = context.getProperty(TEXT_PROPERTY).evaluateAttributeExpressions(flowFile).getValue();
+
+        try {
+            ClassifyScanService classifyScanService = new ClassifyScanService();
+            Collection<ScanResult> textScanResults = classifyScanService.labelTextWithPolicy(text);
+
+            // Convert scan results to a JSON string
+            ObjectMapper objectMapper = new ObjectMapper();
+            String resultString = objectMapper.writeValueAsString(textScanResults);
+
+            // Set the result as an attribute
+            flowFile = session.putAttribute(flowFile, "result", resultString);
+
+            session.transfer(flowFile, REL_SUCCESS);
+        } catch (JsonProcessingException e) {
+            getLogger().error("Failed to convert scan results to JSON", e);
+            session.transfer(flowFile, REL_FAILURE);
+        } catch (Exception e) {
+            getLogger().error("Failed to process FlowFile", e);
+            session.transfer(flowFile, REL_FAILURE);
+        }
+    }
+```
+
+- 这里获取到属性值后，将其进行敏感打标处理，存入一个集合中
+- 将扫描结果转换为 JSON ，并写入到 `flowFile` 的新属性 `result` 中
+- 进行关系转移
+
+## Deployment
+
+- 打包：执行 mvn clean install 命令进行打包
+- 上传：在 `nifi-nifi-example-nar` 的 target 下找到 nar 包，上传至 NiFi 部署目录的 lib 目录下。
+- 重启：在 NiFi 部署目录下执行sh脚本重启服务
+- 进入 UI 界面开始使用！
 
