@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>NiFi - 标签 - CatTail&#39;s Blog</title>
+    <link>http://localhost:1313/tags/nifi/</link>
+    <description>NiFi - 标签 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 14:12:18 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/nifi/" rel="self" type="application/rss+xml" /><item>
+  <title>NiFiSDK开发流程</title>
+  <link>http://localhost:1313/posts/nifi/fc45476/</link>
+  <pubDate>Mon, 08 Jul 2024 14:12:18 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/posts/nifi/fc45476/</guid>
+  <description><![CDATA[需求 公司中台需要新增数据同步能力，经过调研选择了 Apache NiFi ，它可以高效方便地实现数据订阅、数据流处理等功能。它的一大优点就是所有的操作都可以在提供]]></description>
+</item>
+<item>
+  <title>NiFi Processor自定义开发：从零开始创建自己的第一个Processor</title>
+  <link>http://localhost:1313/posts/nifi/247fe3e/</link>
+  <pubDate>Mon, 08 Jul 2024 11:35:50 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/posts/nifi/247fe3e/</guid>
+  <description><![CDATA[什么是NiFi Processor？ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富的内置组件来处理数据集成，包括了各种数据源的读写，数据的拆]]></description>
+</item>
+<item>
+  <title>NiFi invalid host header解决过程</title>
+  <link>http://localhost:1313/posts/nifi/8c56445/</link>
+  <pubDate>Tue, 02 Jul 2024 23:04:41 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/posts/nifi/8c56445/</guid>
+  <description><![CDATA[问题起因 最近需要在把NiFi集成到公司的一个中台上，因为NiFi本身是提供了一个可视化界面的，可以通过 &lt;ip&gt;:port/nifi/ 这种路径去访问，所以我们计划使用前端]]></description>
+</item>
+</channel>
+</rss>

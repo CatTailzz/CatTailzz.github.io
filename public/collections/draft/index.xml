@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Draft - 合集 - CatTail&#39;s Blog</title>
+    <link>http://localhost:1313/collections/draft/</link>
+    <description>Draft - 合集 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 14:14:02 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/collections/draft/" rel="self" type="application/rss+xml" /><item>
+  <title>git常见场景及解决方案</title>
+  <link>http://localhost:1313/posts/devops/213536b/</link>
+  <pubDate>Mon, 08 Jul 2024 14:14:02 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:1313/posts/devops/213536b/</guid>
+  <description><![CDATA[用git解决科研实验的版本控制 起因 原本我以为，科研这种简单的，完全自己写的💩山，是不需要版本控制的，因为我清楚的知道每一个细节。直到有一天发]]></description>
+</item>
+</channel>
+</rss>

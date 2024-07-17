@@ -36,8 +36,9 @@ draft: false
 
 # 权限校验
 
-> [!NOTE] 观前提示
-> 以下内容并未搬抄目前的最佳实践，如果实现方式上有丑陋或令人困惑的地方，欢迎与我讨论
+{{< admonition tip "观前提示" true >}}
+以下内容并未搬抄目前的最佳实践，如果实现方式上有丑陋或令人困惑的地方，欢迎与我讨论
+{{< /admonition >}}
 
 首先，`NiFi REST API` 的访问时需要登陆令牌的，可以通过 `[POST] /access/token` 获取，携带上用户名/密码，如果成功则会返回令牌。其他所有的请求都需要在请求头携带这个令牌，具体格式为 `Authorization=Bearer:[令牌]` ，另外需要注意的是，这些API的前缀url为 `https://<nifi-server-ip>:<port>/nifi-api` 。
 
@@ -142,17 +143,18 @@ private <T> T handleResponse(CloseableHttpResponse response, JsonResponseHandler
 ```
 
 
-> [!DANGER] 重要坑点
-> 这里关于连接的管理，很多人会想到连接复用，而不是每次调用请求都生成一个httpclient实例。我一开始也这么做了，结果在一个【登陆请求】-【获取状态】-【修改状态】链路的第三步出现了403 Forbidden。经过SSL、权限配置、代码回滚等各种排查，最后发现竟然是httpclient复用的问题？
-> 
-> 其实也和我自己的设计有关系，我在修改一个流程组的状态时，是通过修改流程组内所有的处理器状态来实现的，相当于一个for循环去操作，而httpclient又是复用的，在异步的时候就会导致资源竞争和混淆，最后表现的结果就是某个httpclient丢失了令牌头，导致了403 Forbidden。在确定问题后，把复用改为了每次请求创建，并在finally close掉，成功解决了问题。
+{{< admonition warning "重要坑点！">}}
+这里关于连接的管理，很多人会想到连接复用，而不是每次调用请求都生成一个httpclient实例。我一开始也这么做了，结果在一个【登陆请求】-【获取状态】-【修改状态】链路的第三步出现了403 Forbidden。经过SSL、权限配置、代码回滚等各种排查，最后发现竟然是httpclient复用的问题？
+
+其实也和我自己的设计有关系，我在修改一个流程组的状态时，是通过修改流程组内所有的处理器状态来实现的，相当于一个for循环去操作，而httpclient又是复用的，在异步的时候就会导致资源竞争和混淆，最后表现的结果就是某个httpclient丢失了令牌头，导致了403 Forbidden。在确定问题后，把复用改为了每次请求创建，并在finally close掉，成功解决了问题。
+{{< /admonition >}}
 
 # 起停流程组
 
 关于流程组的启动和停止我并没有找到直接的 API ，但是有处理器的状态变更 API ，我最终借助以下几个请求来实现：
-`[GET] /flow/process-groups/{id}` 获取流程组实体 JSON，可解析出下属所有处理器 id
-`[PUT] /processors/{id}/run-status` 修改处理器状态
-`[GET] /processors/{id}`  获取处理器实体JSON
+- `[GET] /flow/process-groups/{id}` 获取流程组实体 JSON，可解析出下属所有处理器 id
+- `[PUT] /processors/{id}/run-status` 修改处理器状态
+- `[GET] /processors/{id}`  获取处理器实体JSON
 
 这里对于如何从 JSON 中解析出处理器 id 不做赘述，其实基本所有需要的信息，包括报错日志、定时任务等都可以从这个实体 JSON 中获取到。
 
@@ -244,4 +246,6 @@ private int getCurrentProcessorVersion(String processorId) throws Exception {
 
 # 结语
 
-事实上本文已经总结并实现了 `NiFi REST API` 的基本使用方式了，并自己封装了一层，包装成SDK给外部使用，可以结合外部强大的定时工具来实现高级的数据订阅功能
+本文总结并实现了 `NiFi REST API` 的基本使用方式了，并把 NiFi 强大的数据流处理能力以一种更加用户友好的方式封装为了SDK供外部使用，未来也会不断扩展和优化这个SDK，以满足更多的业务场景和挑战。
+
+最后，欢迎浏览 [本项目代码仓库](https://github.com/CatTailzz/nifi-sdk) 。
