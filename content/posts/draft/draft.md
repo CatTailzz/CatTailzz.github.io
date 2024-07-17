@@ -63,4 +63,6 @@ SDK要求把目前的告警发送相关的内容全都集成进去，大致可�
 	- 若命中，则根据userid生成session访问，并从redis中删除code
 	- 若不存在，则跳转到登陆页面
 
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407170952175.png)
+
 
