@@ -4,7 +4,7 @@
     <link>http://localhost:1313/tags/nifi/</link>
     <description>NiFi - 标签 | CatTail&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 14:12:18 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/nifi/" rel="self" type="application/rss+xml" /><item>
-  <title>NiFiSDK开发流程</title>
+  <title>NiFi SDK开发流程</title>
   <link>http://localhost:1313/posts/nifi/fc45476/</link>
   <pubDate>Mon, 08 Jul 2024 14:12:18 &#43;0800</pubDate>
   <author>CatTail</author>
