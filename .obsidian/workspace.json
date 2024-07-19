@@ -122,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md"
               }
             }
           }
@@ -250,7 +250,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "75c7201c6484c21a",
+  "active": "a5ef866ad44c1979",
   "lastOpenFiles": [
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
