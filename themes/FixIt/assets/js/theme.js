@@ -435,7 +435,7 @@ class FixIt {
         // copy button
         if (this.config.code.copyTitle) {
           const $copy = document.createElement('span');
-          $copy.insertAdjacentHTML('afterbegin', '<i class="fa-regular fa-copy fa-fw" aria-hidden="true"></i>');
+          $copy.insertAdjacentHTML('afterbegin', '<i class="fa-regular fa-copy fa-fw" aria-hidden="true"></i><i class="fa-solid fa-check fa-fw" aria-hidden="true"></i>');
           $copy.classList.add('copy');
           // remove the leading and trailing whitespace of the code string
           const code = $code.innerText.trim();
@@ -445,14 +445,14 @@ class FixIt {
           $copy.title = this.config.code.copyTitle;
           $copy.addEventListener('click', () => {
             navigator.clipboard.writeText(code).then(() => {
-              this.util.animateCSS($code, 'animate__flash');
+              $copy.querySelector('.fa-copy').style.display = 'none';
+              $copy.querySelector('.fa-check').style.display = 'inline';
             }, () => {
               console.error('Clipboard write failed!', 'Your browser does not support clipboard API!');
             });
           }, false);
-          $header.appendChild($copy);
+          $chroma.appendChild($copy);
         }
-        $chroma.insertBefore($copy);
         // $chroma.insertBefore($header, $chroma.firstChild);
       }
     });

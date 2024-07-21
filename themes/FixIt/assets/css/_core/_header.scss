@@ -23,7 +23,9 @@ header {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 100%;
+  width: 60%;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .header-title {
@@ -76,6 +78,7 @@ header {
     }
 
     &.active {
+
       >.menu-link,
       >.nested-item>.menu-link {
         font-weight: bold;
@@ -235,6 +238,7 @@ header {
           display: block;
           @include transform(translateX(-0.5rem));
         }
+
         &.language-switch:hover .sub-menu {
           @include transform(translateX(calc(1.75rem - 100%)));
         }
@@ -383,7 +387,7 @@ header {
         top: 0;
         background-color: $header-background-color;
         @include z-index(0, 50);
- 
+
         [data-theme='dark'] & {
           background-color: $header-background-color-dark;
         }
@@ -400,7 +404,7 @@ header {
 
       .search-loading,
       .search-clear {
-        right:  0.5rem;
+        right: 0.5rem;
       }
 
       .search-button {
@@ -454,7 +458,7 @@ header {
         line-height: 2.5rem;
         padding: 0 1rem;
         background-color: $header-background-color;
- 
+
         [data-theme='dark'] & {
           background-color: $header-background-color-dark;
         }
