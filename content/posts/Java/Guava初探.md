@@ -1,6 +1,6 @@
 ---
 title: Guava初探
-subtitle:
+subtitle: 
 date: 2024-07-15T10:02:50+08:00
 slug: 6bd18fe
 draft: true
@@ -8,10 +8,7 @@ tags:
   - draft
 categories:
   - draft
-collections:
-  - draft
-
-password:
+password: 
 message:
 ---
 

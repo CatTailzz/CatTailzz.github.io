@@ -27,7 +27,7 @@ $global-font-color: #161209 !default;
 $global-font-color-dark: #b1b1ba !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #b1b1ba !default;
+$global-font-secondary-color: #444446 !default;
 $global-font-secondary-color-dark: #909092 !default;
 
 // Color of the link
@@ -41,6 +41,8 @@ $global-link-hover-color-dark: #fff !default;
 // Color of the border
 $global-border-color: #f0f0f0 !default;
 $global-border-color-dark: #363636 !default;
+
+$my-global-border-color: #050404 !default;
 // ========== Global ========== //
 
 // ========== Scrollbar ========== //

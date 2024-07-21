@@ -7,8 +7,6 @@ tags:
   - NiFi
 categories:
   - NiFI
-collections:
-  - NiFi
 password: 
 message: 
 draft: true

@@ -123,7 +123,7 @@
         line-height: 1;
         transition: left 1s ease-in-out, color 0.3s ease, border-color 0.3s ease;
       }
-    
+
       &:hover::before {
         left: calc(95% - 20px);
       }
@@ -131,30 +131,31 @@
   }
 
   .content {
-    > h1,
-    > h2 {
+
+    >h1,
+    >h2 {
       font-size: 1.5em;
       padding-bottom: 0.3em;
       border-bottom: 1px solid $global-border-color;
     }
 
-    > h3 {
+    >h3 {
       font-size: 1.25em;
     }
 
-    > h4 {
+    >h4 {
       font-size: 1em;
     }
 
-    > h5 {
+    >h5 {
       font-size: 0.875em;
     }
 
-    > h6 {
+    >h6 {
       font-size: 0.85em;
     }
 
-    > .heading-element {
+    >.heading-element {
       display: flex;
       font-weight: bold;
       line-height: 1.25;
@@ -172,12 +173,12 @@
 
       &:hover,
       &:target {
-        > .heading-mark {
+        >.heading-mark {
           opacity: 1;
         }
       }
 
-      > .heading-mark {
+      >.heading-mark {
         display: inline-flex;
         align-items: center;
         opacity: 0;
@@ -235,6 +236,7 @@
       dt {
         font-weight: bold;
       }
+
       dd {
         margin: 0.25em 0 1em;
       }
@@ -264,7 +266,7 @@
         --#{$prefix}scrollbar-thumb-color: #{$table-background-color-dark};
       }
 
-      > table {
+      >table {
         width: 100%;
         max-width: 100%;
         margin: 0.625rem 0;
@@ -348,6 +350,7 @@
         vertical-align: text-bottom;
       }
     }
+
     svg {
       max-width: 100%;
     }

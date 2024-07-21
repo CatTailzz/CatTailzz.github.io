@@ -1,6 +1,6 @@
 ---
 title: Linux内核可加载模块探索：防制丐版NSA后门
-subtitle:
+subtitle: 
 date: 2024-07-16T16:08:00+08:00
 slug: f2ee17c
 draft: true
@@ -8,10 +8,7 @@ tags:
   - draft
 categories:
   - draft
-collections:
-  - draft
-
-password:
+password: 
 message:
 ---
 

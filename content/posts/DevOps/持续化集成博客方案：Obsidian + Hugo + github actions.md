@@ -6,8 +6,6 @@ tags:
   - 博客搭建
 categories:
   - 博客搭建
-collections:
-  - DevOps
 password: 
 message: 
 draft: false

@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>NiFi Processor自定义开发：从零开始创建自己的第一个Processor - CatTail&#39;s Blog&lt;hr />
-123</title><meta name="author" content="CatTail">
+    <title>NiFi Processor自定义开发：从零开始创建自己的第一个Processor - CatTail&#39;s Blog</title><meta name="author" content="CatTail">
 <meta name="author-link" content="https://github.com/CatTailzz">
 <meta name="description" content="什么是NiFi Processor？ Apache NiFi 是一个数据流自动化同步工具，它本身提供了丰富的内置组件来处理数据集成，包括了各种数据源的读写，数据的拆" /><meta name="keywords" content='NiFi' />
   <meta itemprop="name" content="NiFi Processor自定义开发：从零开始创建自己的第一个Processor">
@@ -62,9 +61,7 @@
           class="menu-item">
           <a class="menu-link" href="/tags/"  >标签</a></li><li
           class="menu-item">
-          <a class="menu-link" href="/categories/"  >分类</a></li><li
-          class="menu-item">
-          <a class="menu-link" href="/collections/"  >归档</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="">
+          <a class="menu-link" href="/categories/"  >分类</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="">
           <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
         </li></ul>
     </nav>
@@ -82,8 +79,7 @@
       <ul class="menu" id="menu-mobile"><li
           class="menu-item"><a class="menu-link" href="/posts/"  >文章</a></li><li
           class="menu-item"><a class="menu-link" href="/tags/"  >标签</a></li><li
-          class="menu-item"><a class="menu-link" href="/categories/"  >分类</a></li><li
-          class="menu-item"><a class="menu-link" href="/collections/"  >归档</a></li><li class="menu-item menu-system">
+          class="menu-item"><a class="menu-link" href="/categories/"  >分类</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="">
             <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
       </ul>
@@ -97,9 +93,10 @@
 <article class="page single">
   <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>NiFi Processor自定义开发：从零开始创建自己的第一个Processor</span>
     </h1></div><div class="post-meta">
-    <div class="post-meta-line"><span class="post-author"><a href="https://github.com/CatTailzz" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/icon/android-chrome-192x192.png" alt="CatTail" data-title="CatTail" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;CatTail</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/nifi/" class="post-category" title="分类 - NiFI"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> NiFI</a> 和 <a href="/collections/nifi/" class="post-collection" title="合集 - NiFi"><i class="fa-solid fa-layer-group fa-fw" aria-hidden="true"></i> NiFi</a></span></div><div class="post-meta-line"><span title="发布于 &lt;no value&gt;"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-07-08">2024-07-08</time></span>&nbsp;<span title=""><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 2400 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 5 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="NiFi Processor自定义开发：从零开始创建自己的第一个Processor">
+    <div class="post-meta-line"><span class="post-author"><a href="https://github.com/CatTailzz" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/icon/android-chrome-192x192.png" alt="CatTail" data-title="CatTail" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;CatTail</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/nifi/" class="post-category" title="分类 - NiFI"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> NiFI</a></span></div><div class="post-meta-line"><span title="发布于 &lt;no value&gt;"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-07-08">2024-07-08</time></span>&nbsp;<span title=""><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 2400 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 5 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="NiFi Processor自定义开发：从零开始创建自己的第一个Processor">
         <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
       </span>&nbsp;</div>
+
   </div><div class="details toc" id="toc-static"
     data-kept="false">
     <div class="details-summary toc-title">
@@ -467,12 +464,7 @@
 <li>重启：在 NiFi 部署目录下执行sh脚本重启服务</li>
 <li>进入 UI 界面开始使用！</li>
 </ul>
-</div><div class="collection-card">
-      <div class="collection-title text-secondary">收录于 <a href="/collections/nifi/"><i class="fa-solid fa-layer-group fa-fw" aria-hidden="true"></i> <span>合集・NiFi</span></span></a> 3</div>
-      <div class="collection-nav"><a href="/posts/nifi/8c56445/" class="collection-nav-item" rel="prev" title="NiFi Invalid Host Header解决过程"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i><span>NiFi Invalid Host Header解决过程</span>
-          </a><a href="/posts/nifi/fc45476/" class="collection-nav-item" rel="next" title="NiFi SDK开发流程">
-            <span>NiFi SDK开发流程</span><i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
-    </div><div class="post-footer" id="post-footer">
+</div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
@@ -519,5 +511,5 @@
     <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
   </noscript>
 </div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.8"};</script><script src="/js/theme.min.js" defer></script></body>
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.8"};</script><script src="/js/theme.min.js" defer></script></body>
 </html>

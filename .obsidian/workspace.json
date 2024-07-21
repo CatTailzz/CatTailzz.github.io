@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/NiFi/NiFi-processor自定义开发.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/NiFi/NiFi-processor自定义开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/NiFi/NiFi-processor自定义开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md"
+                "file": "content/posts/NiFi/NiFi-processor自定义开发.md"
               }
             }
           }
@@ -252,22 +252,23 @@
   },
   "active": "32fdc9d07646bc0c",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-    "content/posts/NiFi/NiFi性能调优.md",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
-    "content/posts/DevOps/git常见场景及解决方案.md",
+    "content/posts/maven/maven私服上传流程.md",
+    "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门.md",
+    "content/posts/Java/Java日志打印最佳实践.md",
+    "content/posts/Java/Guava初探.md",
+    "content/posts/Java/字节码插桩技术初见.md",
+    "content/posts/Java/枚举类的好处.md",
     "content/posts/draft/draft.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-    "content/posts/NiFi/NiFi-processor自定义开发.md",
-    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
-    "content/posts/NiFi/NiFiSDK开发流程.md",
+    "content/posts/DevOps/git常见场景及解决方案.md",
+    "content/posts/DevOps/DolphinScheduler持续化集成方案.md",
+    "content/posts/DevOps/CICD打包部署流程梳理.md",
     "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
+    "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
+    "content/posts/微服务/微服务初见探索.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "public/index.xml",
-    "public/tags/其他/page/1/index.html",
     "public/tags/博客搭建/page/1/index.html",
+    "public/tags/其他/page/1/index.html",
     "public/tags/nifi/page/1/index.html",
     "public/tags/draft/page/1/index.html",
     "public/tags/博客搭建/page/1",
@@ -285,18 +286,17 @@
     "public/icon/mstile-150x150.png",
     "public/icon/favicon-32x32.png",
     "public/icon/favicon-16x16.png",
-    "content/posts/DevOps/DolphinScheduler持续化集成方案.md",
-    "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "content/posts/NiFi/NiFi性能调优.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "content/posts/NiFi/NiFi-processor自定义开发.md",
+    "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
+    "content/posts/NiFi/NiFiSDK开发流程.md",
     "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门1.md",
-    "content/posts/Java/Guava初探.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
-    "未命名.md",
-    "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/简历.md",
-    "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "content/posts/others/写博客tips.md",
-    "content/posts/others/沟通指南.md",
-    "content/posts/others/如何在Markdown中打印文件结构树.md"
+    "未命名.md"
   ]
 }

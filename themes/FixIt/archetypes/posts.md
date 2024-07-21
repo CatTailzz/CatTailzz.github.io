@@ -8,8 +8,8 @@ tags:
   - draft
 categories:
   - draft
-collections:
-  - draft
+# collections:
+#   - draft
 
 password:
 message:

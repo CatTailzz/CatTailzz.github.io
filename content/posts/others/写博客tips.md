@@ -7,8 +7,6 @@ tags:
   - 其他
 categories:
   - 其他
-collections:
-  - 其他
 password: 
 message: 
 draft: false
