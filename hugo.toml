@@ -58,6 +58,8 @@ enableEmoji = true
   [markup.highlight]
     # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    #lineNos = true
+
 
 # 分类配置
 [taxonomies]
@@ -265,12 +267,12 @@ enableEmoji = true
         # FixIt 0.3.3 | NEW only enable in main section pages (default is posts)
         onlyMainSection = true
         [params.page.heading.number.format]
-          h1 = "{title}"
-          h2 = "{h2} {title}"
-          h3 = "{h2}.{h3} {title}"
-          h4 = "{h2}.{h3}.{h4} {title}"
-          h5 = "{h2}.{h3}.{h4}.{h5} {title}"
-          h6 = "{h2}.{h3}.{h4}.{h5}.{h6} {title}"
+          h1 = "{h1} {title}"
+          h2 = "{h1}.{h2} {title}"
+          h3 = "{h1}.{h2}.{h3} {title}"
+          h4 = "{h1}.{h2}.{h3}.{h4} {title}"
+          h5 = "{h1}.{h2}.{h3}.{h4}.{h5} {title}"
+          h6 = "{h1}.{h2}.{h3}.{h4}.{h5}.{h6} {title}"
     # FixIt 0.2.16 | CHANGED KaTeX mathematical formulas (https://katex.org)
     [params.page.math]
       enable = true
@@ -291,7 +293,7 @@ enableEmoji = true
       # FixIt 0.2.13 | NEW whether to show the edit button of the code block
       edit = false
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+      maxShownLines = 9999
     # Mapbox GL JS config (https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS

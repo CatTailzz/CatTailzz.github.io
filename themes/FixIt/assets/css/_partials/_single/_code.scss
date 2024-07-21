@@ -58,10 +58,11 @@ pre:not(.mermaid[data-processed='true']) {
   font-family: $code-font-family;
 
   .table-wrapper {
-    > table,
-    > table thead,
-    > table tr,
-    > table td {
+
+    >table,
+    >table thead,
+    >table tr,
+    >table td {
       margin: 0;
       padding: 0;
       border: none !important;
@@ -72,9 +73,9 @@ pre:not(.mermaid[data-processed='true']) {
 
 // block fenced code
 .highlight {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 
-  > .chroma {
+  >.chroma {
     position: relative;
 
     .code-header {
@@ -178,7 +179,7 @@ pre:not(.mermaid[data-processed='true']) {
       }
 
       pre {
-        padding: 0.25rem;
+        padding: 0.5rem 1rem;
         outline-offset: -1px;
         @include border-radius(0);
       }
@@ -200,6 +201,7 @@ pre:not(.mermaid[data-processed='true']) {
           @include user-select(none);
         }
       }
+
       // code content
       .lntd:last-child {
         width: 100%;
@@ -208,10 +210,12 @@ pre:not(.mermaid[data-processed='true']) {
           padding-left: 0.5rem;
           padding-right: 0.5rem;
         }
+
         code {
           width: 100%;
         }
       }
+
       // ========== lineNumbersInTable ========== //
     }
 
@@ -256,18 +260,22 @@ pre:not(.mermaid[data-processed='true']) {
       box-shadow: -0.5rem 0 0 $code-hightlight-color-dark, 0.5rem 0 0 $code-hightlight-color-dark;
     }
   }
+
   /* GenericUnderline */
   .gl {
     text-decoration: underline;
   }
+
   /* GenericStrong */
   .gs {
     font-weight: bold;
   }
+
   /* GenericEmph */
   .ge {
     font-style: italic;
   }
+
   /* lineNumbersInTable=false */
   .ln {
     padding-right: 0.5rem;
@@ -275,6 +283,7 @@ pre:not(.mermaid[data-processed='true']) {
     min-width: 1.1rem;
     text-align: right;
   }
+
   /* LineNumbers */
   .lnt,
   .ln {
@@ -292,6 +301,7 @@ pre:not(.mermaid[data-processed='true']) {
     font-style: italic;
     border-bottom: 1px dotted $code-error-color;
   }
+
   /* GenericDeleted */
   .gd {
     background-color: #ffebe9;
@@ -300,6 +310,7 @@ pre:not(.mermaid[data-processed='true']) {
       background-color: #78191b;
     }
   }
+
   /* GenericInserted */
   .gi {
     background-color: #dafbe1;
@@ -322,11 +333,13 @@ pre:not(.mermaid[data-processed='true']) {
       }
     }
   }
+
   // ========== Higtlight Color ========== //
 }
 
 // gist shortcode
 .gist {
+
   .gist-file,
   .gist-data,
   .gist-meta {
@@ -353,6 +366,7 @@ pre:not(.mermaid[data-processed='true']) {
     [data-theme='dark'] & {
       --#{$prefix}scrollbar-thumb-color: #{$code-background-color-dark};
     }
+
     .highlight {
       background-color: $code-background-color;
 

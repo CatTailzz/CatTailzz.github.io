@@ -164,12 +164,12 @@ class FixIt {
         $searchClear.style.display = 'none';
         this._searchDesktop && this._searchDesktop.autocomplete.setVal('');
       }, false);
-      this._searchDesktopOnClickMask = this._searchDesktopOnClickMask ||(() => {
-          $header.classList.remove('open');
-          $searchLoading.style.display = 'none';
-          $searchClear.style.display = 'none';
-          this._searchDesktop && this._searchDesktop.autocomplete.setVal('');
-        });
+      this._searchDesktopOnClickMask = this._searchDesktopOnClickMask || (() => {
+        $header.classList.remove('open');
+        $searchLoading.style.display = 'none';
+        $searchClear.style.display = 'none';
+        this._searchDesktop && this._searchDesktop.autocomplete.setVal('');
+      });
       this.clickMaskEventSet.add(this._searchDesktopOnClickMask);
     }
     $searchInput.addEventListener('input', () => {
@@ -289,25 +289,25 @@ class FixIt {
                     finish([]);
                   });
               } else finish(search());
-            }            
+            }
           },
           templates: {
             suggestion: ({ title, date, context }) =>
               `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
             empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
-            footer: ({}) => {
+            footer: ({ }) => {
               const { searchType, icon, href } =
                 searchConfig.type === 'algolia'
                   ? {
-                      searchType: 'algolia',
-                      icon: '<i class="fa-brands fa-algolia fa-fw" aria-hidden="true"></i>',
-                      href: 'https://www.algolia.com/'
-                    }
+                    searchType: 'algolia',
+                    icon: '<i class="fa-brands fa-algolia fa-fw" aria-hidden="true"></i>',
+                    href: 'https://www.algolia.com/'
+                  }
                   : {
-                      searchType: 'Fuse.js',
-                      icon: '',
-                      href: 'https://fusejs.io/'
-                    }
+                    searchType: 'Fuse.js',
+                    icon: '',
+                    href: 'https://fusejs.io/'
+                  }
               return `<div class="search-footer">Search by <a href="${href}" rel="noopener noreferrer" target="_blank">${icon} ${searchType}</a></div>`;
             }
           }
@@ -452,7 +452,8 @@ class FixIt {
           }, false);
           $header.appendChild($copy);
         }
-        $chroma.insertBefore($header, $chroma.firstChild);
+        $chroma.insertBefore($copy);
+        // $chroma.insertBefore($header, $chroma.firstChild);
       }
     });
   }
@@ -579,7 +580,7 @@ class FixIt {
       })
       _initializeAndRun()
     });
-    this.beforeprintEventSet.add(() => { 
+    this.beforeprintEventSet.add(() => {
       // Set the theme to neutral when printing.
     });
   }
@@ -854,13 +855,13 @@ class FixIt {
     if (this.config.comment.giscus) {
       const giscusConfig = this.config.comment.giscus;
       this._giscusOnSwitchTheme = this._giscusOnSwitchTheme || (() => {
-        const message = { setConfig: { theme: this.isDark ? giscusConfig.darkTheme : giscusConfig.lightTheme }};
+        const message = { setConfig: { theme: this.isDark ? giscusConfig.darkTheme : giscusConfig.lightTheme } };
         document.querySelector('.giscus-frame')?.contentWindow.postMessage({ giscus: message }, giscusConfig.origin);
       });
       this.switchThemeEventSet.add(this._giscusOnSwitchTheme);
       this.giscus2parentMsg = window.addEventListener('message', (event) => {
         const $script = document.querySelector('#giscus>script');
-        if ($script){
+        if ($script) {
           this._giscusOnSwitchTheme();
           $script.parentElement.removeChild($script);
         }
@@ -916,8 +917,8 @@ class FixIt {
       navigator.serviceWorker
         .ready
         .then(function (registration) {
-        // console.log('Service Worker Ready');
-      });
+          // console.log('Service Worker Ready');
+        });
     }
   }
 
@@ -1024,7 +1025,7 @@ class FixIt {
       });
       this.switchThemeEventSet.add(this._vConsoleOnSwitchTheme);
     }
-    if(type === 'eruda') {
+    if (type === 'eruda') {
       eruda.init({
         defaults: { theme: this.isDark ? 'Dark' : 'Light' }
       });
@@ -1045,7 +1046,7 @@ class FixIt {
     const scrollTop = Number(window.sessionStorage?.getItem(`fixit-bookmark/#${location.pathname}`));
     // If the page opens with a specific hash, just jump out
     if (scrollTop && location.hash === '') {
-      window.scrollTo({ 
+      window.scrollTo({
         top: scrollTop,
         behavior: 'smooth'
       });
