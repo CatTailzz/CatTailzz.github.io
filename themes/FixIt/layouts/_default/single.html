@@ -14,6 +14,10 @@
     {{- with $params.subtitle -}}<p class="single-subtitle animate__animated animate__fadeIn">{{ . }}</p>{{- end -}}
   </div>
 
+  <!-- 添加分割线 -->
+  <hr class="header-divider">
+
+
   {{- /* Content */ -}}
   {{- $content := dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome"
   $params.fontawesome | partial "function/content.html" | safeHTML -}}
