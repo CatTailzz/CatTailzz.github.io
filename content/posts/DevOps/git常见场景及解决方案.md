@@ -9,7 +9,7 @@ categories:
   - draft
 password: 
 message: 
-draft: false
+draft: true
 ---
 # 用git解决科研实验的版本控制
 
