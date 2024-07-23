@@ -5,7 +5,7 @@ date: 2024-06-23T23:11:40+08:00
 tags:
   - 博客搭建
 categories:
-  - 博客搭建
+  - DevOps
 password: 
 message: 
 draft: false
