@@ -122,9 +122,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "407a0f9a59cf0daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/draft/draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "content/posts/draft/draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md"
+                "file": "content/posts/draft/draft.md"
               }
             }
           }
@@ -252,16 +264,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "07ec6c02a7aa9f0e",
+  "active": "41aa38b3991a76d6",
   "lastOpenFiles": [
     "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
     "content/posts/DevOps/DolphinScheduler持续化集成方案.md",
     "content/posts/DevOps/CICD打包部署流程梳理.md",
     "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
     "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "content/posts/draft/draft.md",
     "content/posts/NiFi/NiFi调研.md",
