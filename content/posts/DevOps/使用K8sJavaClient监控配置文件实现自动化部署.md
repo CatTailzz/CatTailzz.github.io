@@ -185,7 +185,9 @@ private static boolean updateEnvVar(V1Deployment deployment, String envVarName, 
 
 为了实现动态扩缩容，我们可以使用 Kubernetes Java Client 调整 Deployment 的副本数。
 
-值的注意的是，调整副本数是异步的，并且需要一个时间来完成，如果直接调用两次而不等待将会导致指令错乱。这里我们使用了简单的轮训机制来监测 replicas 是否已经修改完成，再放行后续步骤。
+{{< admonition warning "重要">}}
+值的注意的是，调整副本数是异步的，并且需要一个时间来完成，如果直接调用两次而不等待将会导致指令错乱。这里我们使用了简单的轮询机制来监测 replicas 是否已经修改完成，再放行后续步骤。
+{{< /admonition >}}
 
 ```Java
 if (envVarUpdated) {
