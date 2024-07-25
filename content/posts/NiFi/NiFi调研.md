@@ -213,3 +213,9 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 2. 降低排错成本，可通过web页面事实查看数据同步过程。
     
 3. 降开发成本，发生需求变更时，只需修改配置，即可重新完成数据兼容。
+
+
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241803576.png)
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804294.png)
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png)
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241805646.png)
