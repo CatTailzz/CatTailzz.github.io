@@ -3,7 +3,7 @@ title: 使用NiFi实现OpenAPI：构建可订阅的数据服务
 subtitle: 
 date: 2024-07-31T03:36:48+08:00
 slug: 2eb3078
-draft: true
+draft: false
 tags:
   - NiFi
 categories:
@@ -134,3 +134,13 @@ private void getProcessGroupsRecursive(String parentGroupId, List<ApiDocument> a
 以下是一个普通的案例，只需要查库并做一些格式转换，然后响应，只做了成功的结果。
 
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png)
+
+## 调用方式
+
+当 Open API 的流准备就绪后，我们就可以调用它，通过 `https://<ip>:<port>/url` 的路径，并设置需要的请求头和参数即可。这里写的时候发现 postman 的 history 没有保留历史数据信息的 body，没内网一时也访问不到，但其他信息还是在的，还是展示一下吧
+
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310555262.png)
+
+# 总结
+
+我们已经确立了在 Apache NiFi 上开发 Open API 的基础策略，目的是将主要的数据处理和数据订阅功能迁移至 NiFi 平台。这一转变有助于减少对主系统的依赖，避免了因小幅度修改开放接口而需重新部署整个系统的问题。目前，我们展示的案例较为基础，并未涵盖生产环境中可能遇到的复杂情况。对于更深入的实施细节和高级应用，建议参考本系列的其他以及后续文章~~（其实我也懒得写实施细节🐶）~~。
