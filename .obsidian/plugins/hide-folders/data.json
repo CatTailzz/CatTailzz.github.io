@@ -15,6 +15,7 @@
     "resources",
     "static",
     "themes",
+    "public",
     ""
   ]
 }
