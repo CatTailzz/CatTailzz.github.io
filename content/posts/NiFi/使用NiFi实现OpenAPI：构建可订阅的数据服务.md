@@ -103,14 +103,13 @@ private void getProcessGroupsRecursive(String parentGroupId, List<ApiDocument> a
 		rootNode.get("processGroupFlow").get("flow").get("processGroups").forEach(processGroup -> {
 			String groupName = processGroup.get("component").get("name").asText();
 			if (groupName.endsWith("-openapi")) {
-				// Recursively get child process groups
 				String childGroupId = processGroup.get("component").get("id").asText();
 				try {
 					getProcessGroupsRecursive(childGroupId, apiDocuments);
 				} catch (Exception e) {
 					throw new RuntimeException(e);
 				}
-				// Get processors with names ending with -config
+				// 获取processors ending with -config
 				try {
 					getProcessors(childGroupId).forEach(processor -> {
 						String processorName = processor.get("component").get("name").asText();
