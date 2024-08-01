@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60449&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>使用NiFi实现OpenAPI：构建可订阅的数据服务 - CatTail&#39;s Blog</title><meta name="author" content="CatTail">
+<meta name="author-link" content="https://github.com/CatTailzz">
+<meta name="description" content="需求 RESTful API 作为应用程序间通信的一种标准方式，通过 HTTP 请求对数据进行操作。尽管它们设计为开放接口以适应不断变化的需求，但在实践中，它们往往与应用程" /><meta name="keywords" content='NiFi' />
+  <meta itemprop="name" content="使用NiFi实现OpenAPI：构建可订阅的数据服务">
+  <meta itemprop="description" content="需求 RESTful API 作为应用程序间通信的一种标准方式，通过 HTTP 请求对数据进行操作。尽管它们设计为开放接口以适应不断变化的需求，但在实践中，它们往往与应用程">
+  <meta itemprop="datePublished" content="2024-07-31T03:36:48+08:00">
+  <meta itemprop="dateModified" content="2024-07-31T03:36:48+08:00">
+  <meta itemprop="wordCount" content="2304">
+  <meta itemprop="keywords" content="NiFi"><meta property="og:url" content="http://localhost:60449/posts/nifi/2eb3078/">
+  <meta property="og:site_name" content="CatTail&#39;s Blog">
+  <meta property="og:title" content="使用NiFi实现OpenAPI：构建可订阅的数据服务">
+  <meta property="og:description" content="需求 RESTful API 作为应用程序间通信的一种标准方式，通过 HTTP 请求对数据进行操作。尽管它们设计为开放接口以适应不断变化的需求，但在实践中，它们往往与应用程">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-31T03:36:48+08:00">
+    <meta property="article:modified_time" content="2024-07-31T03:36:48+08:00">
+    <meta property="article:tag" content="NiFi">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="使用NiFi实现OpenAPI：构建可订阅的数据服务">
+  <meta name="twitter:description" content="需求 RESTful API 作为应用程序间通信的一种标准方式，通过 HTTP 请求对数据进行操作。尽管它们设计为开放接口以适应不断变化的需求，但在实践中，它们往往与应用程">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="http://localhost:60449/posts/nifi/2eb3078/" /><link rel="prev" href="http://localhost:60449/posts/devops/8100467/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "使用NiFi实现OpenAPI：构建可订阅的数据服务",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:60449\/posts\/nifi\/2eb3078\/"
+    },"genre": "posts","keywords": "NiFi","wordcount":  2304 ,
+    "url": "http:\/\/localhost:60449\/posts\/nifi\/2eb3078\/","datePublished": "2024-07-31T03:36:48+08:00","dateModified": "2024-07-31T03:36:48+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "CatTail"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="narrow"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" >
+    <div class="header-title">
+      <a href="/" title="CatTail&#39;s Blog"><img loading="lazy" src="/icon/android-chrome-192x192.png" alt="CatTail&#39;s Blog" data-title="CatTail&#39;s Blog" width="26" height="26" class="logo" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/><span class="header-title-text">CatTail&#39;s Blog</span><span class="header-title-post">😇</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li
+          class="menu-item">
+          <a class="menu-link" href="/posts/"  >文章</a></li><li
+          class="menu-item">
+          <a class="menu-link" href="/tags/"  >标签</a></li><li
+          class="menu-item">
+          <a class="menu-link" href="/categories/"  >分类</a></li><li
+          class="menu-item">
+          <a class="menu-link" href="/about/"  >关于我</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="CatTail&#39;s Blog"><img loading="lazy" src="/icon/android-chrome-192x192.png" alt="CatTail&#39;s Blog" data-title="CatTail&#39;s Blog" width="26" height="26" class="logo" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/><span class="header-title-text">CatTail&#39;s Blog</span><span class="header-title-post">😇</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+          class="menu-item"><a class="menu-link" href="/posts/"  >文章</a></li><li
+          class="menu-item"><a class="menu-link" href="/tags/"  >标签</a></li><li
+          class="menu-item"><a class="menu-link" href="/categories/"  >分类</a></li><li
+          class="menu-item"><a class="menu-link" href="/about/"  >关于我</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="">
+            <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><nav aria-label="breadcrumb" class="breadcrumb-container sticky">
+    <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/" title="CatTail&#39;s Blog">主页</a></li><li class="breadcrumb-item"><a href="/posts/" title="Posts">文章</a></li><li class="breadcrumb-item active" aria-current="page">使用NiFi实现OpenAPI：构建可订阅的数据服务</li>
+    </ol>
+  </nav><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label=""></aside>
+
+<article class="page single">
+  <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>使用NiFi实现OpenAPI：构建可订阅的数据服务</span>
+    </h1></div><div class="post-meta">
+    <div class="post-meta-line"><span class="post-author"><a href="https://github.com/CatTailzz" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/icon/android-chrome-192x192.png" alt="CatTail" data-title="CatTail" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;CatTail</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/nifi/" class="post-category" title="分类 - NiFI"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> NiFI</a></span></div><div class="post-meta-line"><span title="发布于 &lt;no value&gt;"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-07-31">2024-07-31</time></span>&nbsp;<span title=""><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 2400 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 5 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="使用NiFi实现OpenAPI：构建可订阅的数据服务">
+        <i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
+      </span>&nbsp;</div>
+
+  </div><div class="details toc" id="toc-static"
+    data-kept="false">
+    <div class="details-summary toc-title">
+      <span>目录</span>
+      <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+    </div>
+    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#需求">需求</a></li>
+    <li><a href="#实现思路">实现思路</a>
+      <ul>
+        <li><a href="#handlehttprequest">HandleHTTPRequest</a>
+          <ul>
+            <li><a href="#基础信息设置">基础信息设置</a></li>
+            <li><a href="#url-分发问题">URL 分发问题</a></li>
+            <li><a href="#参数设置以及接口文档">参数设置以及接口文档</a></li>
+          </ul>
+        </li>
+        <li><a href="#handlehttpresponse">HandleHTTPResponse</a></li>
+        <li><a href="#调用方式">调用方式</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav></div>
+  </div><div class="content" id="content"><h1 id="需求" class="heading-element"><span>需求</span>
+  <a href="#%e9%9c%80%e6%b1%82" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>RESTful API 作为应用程序间通信的一种标准方式，通过 HTTP 请求对数据进行操作。尽管它们设计为开放接口以适应不断变化的需求，但在实践中，它们往往与应用程序紧密耦合，这可能导致开发过程中的复杂性和臃肿。</p>
+<p>在这些开放接口中，特别是涉及数据订阅的接口，我们之前的系列文章提到 Apache NiFi 特别擅长管理数据流。自然而然，一个问题出现了：NiFi 是否能够将数据流处理的结果封装为 OpenAPI 调用的一部分并公开？答案是肯定的。</p>
+<p>我们的目标是实现数据订阅类 OpenAPI 的解耦，将其从复杂的系统架构中独立出来，并建立一套开发规范，交给 NiFi 去实现。通过这种方式，我们可以显著提高开发效率并简化维护成本。</p>
+<h1 id="实现思路" class="heading-element"><span>实现思路</span>
+  <a href="#%e5%ae%9e%e7%8e%b0%e6%80%9d%e8%b7%af" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>NiFi 有两个非常适合处理 HTTP 请求的处理器：<code>HandleHTTPRequest</code> 和 <code>HandleHTTPResponse</code> ，前者用于监听特定端口的 HTTP 请求，后者用于产生响应结果，我们可以在二者中间补充数据处理逻辑。</p>
+<h2 id="handlehttprequest" class="heading-element"><span>HandleHTTPRequest</span>
+  <a href="#handlehttprequest" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 id="基础信息设置" class="heading-element"><span>基础信息设置</span>
+  <a href="#%e5%9f%ba%e7%a1%80%e4%bf%a1%e6%81%af%e8%ae%be%e7%bd%ae" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>对于请求处理程序，我们只需要确定监听的端口，以及支持的 HTTP 方法，比如是否支持 GET、POST 等，还有 Allowed Paths 就是请求路径，比如 /user，这里我们可以填 * 也可以不填，理由在后文会提到。</p>
+<p><img loading="lazy" src="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310447615.png" alt="image.png" srcset="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310447615.png?size=small, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310447615.png?size=medium 1.5x, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310447615.png?size=large 2x" data-title="image.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="url-分发问题" class="heading-element"><span>URL 分发问题</span>
+  <a href="#url-%e5%88%86%e5%8f%91%e9%97%ae%e9%a2%98" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>这里要注意的是，我们的多个 Open API 可能监听同一个端口，但 NiFi 不允许多个 <code>HandleHTTPRequest</code> 实例同时监听同一个端口，这就意味着我们需要使用单一的 <code>HandleHTTPRequest</code> 处理器来统一处理所有进入的 HTTP 请求。</p>
+<p>为了实现这一点，我们将利用 NiFi 的能力来区分不同的 URL 路径或查询参数，从而实现对不同 API 端点的请求分发。这通常涉及到对请求的 URL 或其他属性进行解析，并根据这些属性将请求路由到相应的处理逻辑。</p>
+<p>这里我们使用到了 <code>RouteOnAttribute</code> 处理器，他可以根据传递过来的 url 参数来 match 不同的规则，我们只需要做好从 url 参数到路由结果的规则定义。类似于普通处理器的默认 <code>success</code> 和 <code>failure</code> 两种 <code>Relationship</code>，<code>RouteOnAttribute</code> 允许我们定义更多样化的路由路径。例如，我们可以基于 URL 中的特定参数或路径片段，设置如 <code>toUser</code> 或 <code>toRole</code> 等自定义路由规则，从而实现更为灵活和细致的请求分发策略。</p>
+<p>此外，<code>RouteOnAttribute</code> 提供的路由灵活性也意味着我们可以轻松扩展新的路由规则，以适应未来可能出现的新需求或变化，而无需对现有工作流进行大规模的修改。</p>
+<p><img loading="lazy" src="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804294.png" alt="image.png" srcset="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804294.png?size=small, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804294.png?size=medium 1.5x, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804294.png?size=large 2x" data-title="image.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h3 id="参数设置以及接口文档" class="heading-element"><span>参数设置以及接口文档</span>
+  <a href="#%e5%8f%82%e6%95%b0%e8%ae%be%e7%bd%ae%e4%bb%a5%e5%8f%8a%e6%8e%a5%e5%8f%a3%e6%96%87%e6%a1%a3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>一个全面的 OpenAPI 规范不仅定义了接口的交互方式，还应包括详尽的接口文档，这通常涵盖请求方法、请求 URL、输入参数、输出参数以及请求和响应的示例等信息。传统开发流程中，我们往往先确定接口规范，然后据此创建接口文档，有时也会使用工具如 Swagger 自动生成文档。</p>
+<p>在 NiFi 中使用 <code>HandleHTTPRequest</code> 处理器时，我们可以灵活地设置各种类型的请求参数，并支持将这些参数定义为自定义属性，以适应不同请求的需求。然而，对于接口文档的生成，NiFi 并没有内建的解决方案。</p>
+<p>为了解决这个问题，我们提出了一种轻量级的方法，旨在最小化手动编写工作量的同时，以类似 Swagger 的格式提供接口文档。我们的方法包括在每个 OpenAPI 实现中引入一个 <code>UpdateAttribute</code> 处理器。这个处理器在数据流处理中不扮演任何角色，但它用于标准化和记录接口文档所需的关键字段。</p>
+<p>由于我们的 <code>HandleHTTPRequest</code> 是统一处理所有 API 请求的，很多接口的详细信息直到请求实际发生时才会动态生成。这就要求我们不能依赖于动态生成的信息来创建文档，而是需要在每个 API 的 <code>UpdateAttribute</code> 处理器中预先定义和记录接口文档的相关信息。</p>
+<p>通过这种方法，我们可以确保每个 OpenAPI 都有一个清晰、一致且预先定义的文档记录，这有助于维护和未来的开发工作，同时也可以作为团队成员理解和使用 API 的参考。</p>
+<p>为了展示和整合接口信息，我们为 NiFi SDK 新增了对于 Open API 的支持，我们约定接口文档的数据模型：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="nd">@Data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ApiDocument</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">method</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">url</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">description</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Parameter</span><span class="o">&gt;</span><span class="w"> </span><span class="n">requestParameters</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Parameter</span><span class="o">&gt;</span><span class="w"> </span><span class="n">responseParameters</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">requestExample</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">responseExample</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nd">@Data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Parameter</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">type</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">description</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">private</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="n">required</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>我们目前是通过流程组名的 <code>-openapi</code> 后缀来定位到 Open API 类型的流程组，以及通过 <code>-config</code> 来定位接口文档相关处理器的，具体逻辑如下</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="c1">// 获取所有openapi的config processor</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="n">JsonNode</span><span class="w"> </span><span class="nf">getOpenApiProcessGroups</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">parentGroupId</span><span class="p">)</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">List</span><span class="o">&lt;</span><span class="n">ApiDocument</span><span class="o">&gt;</span><span class="w"> </span><span class="n">apiDocuments</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">getProcessGroupsRecursive</span><span class="p">(</span><span class="n">parentGroupId</span><span class="p">,</span><span class="w"> </span><span class="n">apiDocuments</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">ApiDocumentUtils</span><span class="w"> </span><span class="n">apiDocumentUtils</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ApiDocumentUtils</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">List</span><span class="o">&lt;</span><span class="n">JsonNode</span><span class="o">&gt;</span><span class="w"> </span><span class="n">documents</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">ApiDocument</span><span class="w"> </span><span class="n">apiDocument</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">apiDocuments</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">documents</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">apiDocumentUtils</span><span class="p">.</span><span class="na">toJson</span><span class="p">(</span><span class="n">apiDocument</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ObjectMapper</span><span class="p">().</span><span class="na">createArrayNode</span><span class="p">().</span><span class="na">addAll</span><span class="p">(</span><span class="n">documents</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">getProcessGroupsRecursive</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">parentGroupId</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">ApiDocument</span><span class="o">&gt;</span><span class="w"> </span><span class="n">apiDocuments</span><span class="p">)</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">String</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">getNifiUrl</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">PROCESS_GROUPS_ENDPOINT</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">parentGroupId</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">HttpGet</span><span class="w"> </span><span class="n">get</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HttpGet</span><span class="p">(</span><span class="n">url</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">executeRequest</span><span class="p">(</span><span class="n">get</span><span class="p">,</span><span class="w"> </span><span class="n">rootNode</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">rootNode</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;processGroupFlow&#34;</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;flow&#34;</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;processGroups&#34;</span><span class="p">).</span><span class="na">forEach</span><span class="p">(</span><span class="n">processGroup</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="n">String</span><span class="w"> </span><span class="n">groupName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">processGroup</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;component&#34;</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;name&#34;</span><span class="p">).</span><span class="na">asText</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">groupName</span><span class="p">.</span><span class="na">endsWith</span><span class="p">(</span><span class="s">&#34;-openapi&#34;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="n">String</span><span class="w"> </span><span class="n">childGroupId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">processGroup</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;component&#34;</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;id&#34;</span><span class="p">).</span><span class="na">asText</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">					</span><span class="n">getProcessGroupsRecursive</span><span class="p">(</span><span class="n">childGroupId</span><span class="p">,</span><span class="w"> </span><span class="n">apiDocuments</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">					</span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RuntimeException</span><span class="p">(</span><span class="n">e</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="c1">// 获取processors ending with -config</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">					</span><span class="n">getProcessors</span><span class="p">(</span><span class="n">childGroupId</span><span class="p">).</span><span class="na">forEach</span><span class="p">(</span><span class="n">processor</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">						</span><span class="n">String</span><span class="w"> </span><span class="n">processorName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">processor</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;component&#34;</span><span class="p">).</span><span class="na">get</span><span class="p">(</span><span class="s">&#34;name&#34;</span><span class="p">).</span><span class="na">asText</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">						</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">processorName</span><span class="p">.</span><span class="na">endsWith</span><span class="p">(</span><span class="s">&#34;-config&#34;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="n">ApiDocumentUtils</span><span class="w"> </span><span class="n">apiDocumentUtils</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ApiDocumentUtils</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="n">ApiDocument</span><span class="w"> </span><span class="n">apiDocument</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">								</span><span class="n">apiDocument</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">apiDocumentUtils</span><span class="p">.</span><span class="na">parseConfigProcessor</span><span class="p">(</span><span class="n">processor</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">JsonProcessingException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">								</span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RuntimeException</span><span class="p">(</span><span class="n">e</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">							</span><span class="n">apiDocuments</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">apiDocument</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">						</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">					</span><span class="p">});</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">					</span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RuntimeException</span><span class="p">(</span><span class="n">e</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">				</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">});</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">});</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>在成功捕获并记录了所有 OpenAPI 接口的详细信息之后，我们便可以将这些信息传递给前端来展示了。Swagger 通过将文档编写工作转变为编写代码的方式，极大地提高了文档的准确性和可维护性。同样，我们的方法通过将文档编写工作转化为配置 NiFi 处理器的属性，也实现了类似的目标。这种转变不仅简化了文档的生成过程，而且确保了文档与实际接口实现的同步更新，从而减少了手动维护文档的负担和出错的可能性。</p>
+<h2 id="handlehttpresponse" class="heading-element"><span>HandleHTTPResponse</span>
+  <a href="#handlehttpresponse" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>响应处理则更简单，只需要在之前的流程中处理好数据的展示，在此处只设置一个状态码即可，大部分情况下都是成功状态码200，如果有一些其他复杂需求，则需要在中间过程中做好路由，各自连接到不同状态码的 <code>HandleHTTPResponse</code> 处理器。</p>
+<p>以下是一个普通的案例，只需要查库并做一些格式转换，然后响应，只做了成功的结果。</p>
+<p><img loading="lazy" src="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png" alt="image.png" srcset="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png?size=small, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png?size=medium 1.5x, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407241804994.png?size=large 2x" data-title="image.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="调用方式" class="heading-element"><span>调用方式</span>
+  <a href="#%e8%b0%83%e7%94%a8%e6%96%b9%e5%bc%8f" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>当 Open API 的流准备就绪后，我们就可以调用它，通过 <code>https://&lt;ip&gt;:&lt;port&gt;/url</code> 的路径，并设置需要的请求头和参数即可。这里写的时候发现 postman 的 history 没有保留历史数据信息的 body，没内网一时也访问不到，但其他信息还是在的，还是展示一下吧</p>
+<p><img loading="lazy" src="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310555262.png" alt="image.png" srcset="https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310555262.png?size=small, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310555262.png?size=medium 1.5x, https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202407310555262.png?size=large 2x" data-title="image.png" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h1 id="总结" class="heading-element"><span>总结</span>
+  <a href="#%e6%80%bb%e7%bb%93" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h1><p>我们已经确立了在 Apache NiFi 上开发 Open API 的基础策略，目的是将主要的数据处理和数据订阅功能迁移至 NiFi 平台。这一转变有助于减少对主系统的依赖，避免了因小幅度修改开放接口而需重新部署整个系统的问题。目前，我们展示的案例较为基础，并未涵盖生产环境中可能遇到的复杂情况。对于更深入的实施细节和高级应用，建议参考本系列的其他以及后续文章~~（其实我也懒得写实施细节🐶）~~。</p>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="更新于 2024-07-31 03:36:48">更新于 2024-07-31&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"></div>
+        <div class="post-info-share">
+          <span></span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/nifi/" class="post-tag" title="标签 - NiFi">NiFi</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/posts/devops/8100467/" class="post-nav-item" rel="prev" title="使用K8sJavaClient监控配置文件，实现自动化部署"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>使用K8sJavaClient监控配置文件，实现自动化部署</a></div>
+</div>
+<div class="post-reward">
+    <div class="comment">狠狠奖励我🥺</div>
+    <input type="checkbox" class="reward-input" name="reward" id="fi-reward" hidden />
+    <label class="reward-button" for="fi-reward"><i class="fa-solid fa-qrcode fa-fw" aria-hidden="true"></i>赞赏</label>
+    <div class="reward-ways" data-mode="static"><div><img loading="lazy" src="/images/alipay.png" alt="CatTail 支付宝" data-title="CatTail 支付宝" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/><span>支付宝</span>
+          </div><div><img loading="lazy" src="/images/wechatpay.png" alt="CatTail 微信" data-title="CatTail 微信" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/><span>微信</span>
+          </div></div>
+  </div></article>
+
+<aside class="toc" id="toc-auto" aria-label=""><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+  <div
+    class="toc-content"
+    id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://github.com/CatTailzz"target="_blank" rel="external nofollow noopener noreferrer">CatTail</a></span></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='总访客数'><i class="fa-regular fa-user fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='总访问量'><i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":9999},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.8"};</script><script src="/js/theme.min.js" defer></script></body>
+</html>

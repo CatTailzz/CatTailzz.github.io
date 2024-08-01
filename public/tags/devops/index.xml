@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>DevOps - 标签 - CatTail&#39;s Blog</title>
+    <link>http://localhost:60449/tags/devops/</link>
+    <description>DevOps - 标签 | CatTail&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 23 Jul 2024 16:16:16 &#43;0800</lastBuildDate><atom:link href="http://localhost:60449/tags/devops/" rel="self" type="application/rss+xml" /><item>
+  <title>使用K8sJavaClient监控配置文件，实现自动化部署</title>
+  <link>http://localhost:60449/posts/devops/8100467/</link>
+  <pubDate>Tue, 23 Jul 2024 16:16:16 &#43;0800</pubDate>
+  <author>CatTail</author>
+  <guid>http://localhost:60449/posts/devops/8100467/</guid>
+  <description><![CDATA[需求背景 在过去，公司在部署 K8s 服务时需要在多个环节手动修改配置和部署，特别是对于基础产品 Starter 和一系列能力包（abcd）的组合。这种手动操作不仅繁]]></description>
+</item>
+</channel>
+</rss>
