@@ -31,7 +31,7 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 用户可以为数据处理定义为一个流程，然后进行处理，后台具有数据处理引擎、任务调度等组件。
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/f48c45ac-ef75-40c4-8733-f4282f332a02.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020233348.png)
 
 # 调研结果
 
@@ -43,19 +43,19 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 方案验证①：mysql—>Kafka数据同步
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/433e607a-0d5d-4340-9bb4-9a5188ae76a6.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020233252.png)
 
 方案验证②：Kafka—>Kafka数据同步
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/e437893e-05bd-4551-a1f3-155a73776be4.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020234291.png)
 
 方案验证③：openAPI->kafka数据同步
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/a60f194a-3151-45cf-9b1f-3166bb54726a.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020234544.png)
 
 方案验证④：mongoDB->kafka数据同步
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/a035a44a-9437-4c69-80a1-ebe9e7edc0b8.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020234756.png)
 
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020205086.png)
 
@@ -67,7 +67,7 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 方案验证①：从kafka拿取数据，根据拿到的json字符串对应属性值去mongo中查询—>将查询出的数据吐到kafka
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/e2c8f24c-b13a-4e02-a884-a93f0ed35490.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020234776.png)
 
 ## 目标三：对数据流进行加工
 
@@ -77,9 +77,9 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 方案验证①：从kafka拿取数据，根据拿到的json字符串对应属性值去mongo中查询—>将查询出的数据吐到kafka
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/227286f0-765d-4ac6-b945-cf0d2c0ee1aa.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020235075.png)
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/bc3e45b6-9278-43a0-adef-6ae26f6d5a36.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020235770.png)
 
 ## 目标四：数据同步调度策略
 
@@ -87,7 +87,7 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 结论：可在节点面板中配置对应的同步策略，配置对应周期
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/f8a13640-f159-45db-8bc2-e8eee8a46559.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020235312.png)
 
 ## 目标五：将数据输出为文件
 
@@ -97,7 +97,7 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 方案验证①：从mysql拿数据，并将数据输出到指定目录
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/928a1473-ad68-4ef4-ab20-34c5c119d2c3.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020235246.png)
 
 ## 目标六：根据数据属性进行路由
 
@@ -107,7 +107,7 @@ NiFi原来是NSA(National Security Agency [美国国家安全局])的一个�
 
 方案验证①：消费kafka数据，根据json字符串角色属性分发到不同的kafkaTopic中
 
-![](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaEE0Dz0qDvL/img/da1d6fbc-a29f-4e58-ae92-dc10c9b48822.png)
+![](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202408020235623.png)
 
 # 运行时注意事项
 
