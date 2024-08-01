@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>其他 - 标签 - CatTail&#39;s Blog</title>
-    <link>http://localhost:60449/tags/%E5%85%B6%E4%BB%96/</link>
+    <link>http://localhost:60510/tags/%E5%85%B6%E4%BB%96/</link>
     <description>其他 - 标签 | CatTail&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 03 Jul 2024 11:22:39 &#43;0800</lastBuildDate><atom:link href="http://localhost:60449/tags/%E5%85%B6%E4%BB%96/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 03 Jul 2024 11:22:39 &#43;0800</lastBuildDate><atom:link href="http://localhost:60510/tags/%E5%85%B6%E4%BB%96/" rel="self" type="application/rss+xml" /><item>
   <title>写博客tips</title>
-  <link>http://localhost:60449/posts/others/70c0135/</link>
+  <link>http://localhost:60510/posts/others/70c0135/</link>
   <pubDate>Wed, 03 Jul 2024 11:22:39 &#43;0800</pubDate>
   <author>CatTail</author>
-  <guid>http://localhost:60449/posts/others/70c0135/</guid>
+  <guid>http://localhost:60510/posts/others/70c0135/</guid>
   <description><![CDATA[不该写什么？ 关于平时的一些有大量解决方案的小问题==不需要记录== 对于一些框架和工具的使用指南==不需要记录== 要写一些什么？ 记录解决问题的]]></description>
 </item>
 <item>
   <title>沟通指南</title>
-  <link>http://localhost:60449/posts/others/14c08e5/</link>
+  <link>http://localhost:60510/posts/others/14c08e5/</link>
   <pubDate>Mon, 01 Jul 2024 14:24:01 &#43;0800</pubDate>
   <author>CatTail</author>
-  <guid>http://localhost:60449/posts/others/14c08e5/</guid>
+  <guid>http://localhost:60510/posts/others/14c08e5/</guid>
   <description><![CDATA[与人交流 在交流时，尽量多提问题，因为需求是需要明确的，但过程中不要问憨憨问题。 在汇报时，少抛问题给领导，要提供【风险】+【解决方案】。 感觉自]]></description>
 </item>
 </channel>

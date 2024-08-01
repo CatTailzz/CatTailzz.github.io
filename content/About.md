@@ -1,14 +1,10 @@
----
-title: "About"
-Description: "Making the Complex Simple and Easy to Understand!"
-layout: "about"
----
+
 
 ## Hi there 👋 I’m CatTail <img src="https://komarev.com/ghpvc/?username=CatTailzz&color=brightgreen">
 🤗🤗
 
   <img src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif" align="right"  width="200"/>
-  
+
 **About Me!**
 
 - 👨🏽‍💻 我目前是杭电的研究生，正在找后端开发的工作💪

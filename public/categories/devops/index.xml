@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>DevOps - 分类 - CatTail&#39;s Blog</title>
-    <link>http://localhost:60449/categories/devops/</link>
+    <link>http://localhost:60510/categories/devops/</link>
     <description>DevOps - 分类 | CatTail&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 23 Jul 2024 16:16:16 &#43;0800</lastBuildDate><atom:link href="http://localhost:60449/categories/devops/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 23 Jul 2024 16:16:16 &#43;0800</lastBuildDate><atom:link href="http://localhost:60510/categories/devops/" rel="self" type="application/rss+xml" /><item>
   <title>使用K8sJavaClient监控配置文件，实现自动化部署</title>
-  <link>http://localhost:60449/posts/devops/8100467/</link>
+  <link>http://localhost:60510/posts/devops/8100467/</link>
   <pubDate>Tue, 23 Jul 2024 16:16:16 &#43;0800</pubDate>
   <author>CatTail</author>
-  <guid>http://localhost:60449/posts/devops/8100467/</guid>
+  <guid>http://localhost:60510/posts/devops/8100467/</guid>
   <description><![CDATA[需求背景 在过去，公司在部署 K8s 服务时需要在多个环节手动修改配置和部署，特别是对于基础产品 Starter 和一系列能力包（abcd）的组合。这种手动操作不仅繁]]></description>
 </item>
 <item>
   <title>持续化集成博客方案：Obsidian &#43; Hugo &#43; github actions</title>
-  <link>http://localhost:60449/posts/devops/%E6%8C%81%E7%BB%AD%E5%8C%96%E9%9B%86%E6%88%90%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88obsidian-&#43;-hugo-&#43;-github-actions/</link>
+  <link>http://localhost:60510/posts/devops/%E6%8C%81%E7%BB%AD%E5%8C%96%E9%9B%86%E6%88%90%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88obsidian-&#43;-hugo-&#43;-github-actions/</link>
   <pubDate>Sun, 23 Jun 2024 23:11:40 &#43;0800</pubDate>
   <author>CatTail</author>
-  <guid>http://localhost:60449/posts/devops/%E6%8C%81%E7%BB%AD%E5%8C%96%E9%9B%86%E6%88%90%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88obsidian-&#43;-hugo-&#43;-github-actions/</guid>
+  <guid>http://localhost:60510/posts/devops/%E6%8C%81%E7%BB%AD%E5%8C%96%E9%9B%86%E6%88%90%E5%8D%9A%E5%AE%A2%E6%96%B9%E6%A1%88obsidian-&#43;-hugo-&#43;-github-actions/</guid>
   <description><![CDATA[需求 最近开始使用Obsidian这款笔记软件，主要看中是它的免费、拓展功能强大、本地存储。除了一些比较私人的笔记外，我更想把一些学习记录，阅]]></description>
 </item>
 </channel>
