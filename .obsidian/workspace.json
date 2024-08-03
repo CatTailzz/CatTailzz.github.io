@@ -86,20 +86,6 @@
             }
           },
           {
-            "id": "07ec6c02a7aa9f0e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "a404b946c05c4d96",
             "type": "leaf",
             "state": {
@@ -123,7 +109,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md"
               }
             }
           }
@@ -251,8 +238,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "380ac1dcc078c51c",
+  "active": "75c7201c6484c21a",
   "lastOpenFiles": [
+    "content/posts/NiFi/NiFiSDK开发流程.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "public/index.xml",
     "public/tags/博客搭建/page/1/index.html",
     "public/tags/其他/page/1/index.html",
@@ -263,7 +253,6 @@
     "public/tags/其他/page/1",
     "public/tags/nifi/page/1",
     "public/tags/k8s/page/1",
-    "public/tags/devops/page/1",
     "public/lib/simple-icons/icons/tencentqq.min.svg",
     "public/lib/lightgallery/images/loading.gif",
     "public/lib/lightgallery/fonts/lg.svg",
@@ -278,15 +267,12 @@
     "content/posts/NiFi/NiFi调研报告.md",
     "content/posts/NiFi/NiFi-processor自定义开发.md",
     "content/posts/NiFi/NiFi语料.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/NiFi/使用NiFi实现OpenAPI：构建可订阅的数据服务.md",
     "content/posts/NiFi/NiFiinvalidhostheader解决过程.md",
-    "content/posts/NiFi/NiFiSDK开发流程.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "content/posts/NiFi/NiFi性能调优.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
     "content/posts/draft/draft.md",
