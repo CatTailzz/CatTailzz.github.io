@@ -405,11 +405,11 @@ enableEmoji = true
         shortname = ""
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "CatTailzz"
+        repo = "blog-comment"
+        clientId = "Ov23liPI4jjumo0oVtl4"
+        clientSecret = "2e9167ce8e4217683bcf12f1dcef44aa77b40548"
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
