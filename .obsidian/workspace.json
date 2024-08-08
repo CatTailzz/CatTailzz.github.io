@@ -216,8 +216,9 @@
   "active": "380ac1dcc078c51c",
   "lastOpenFiles": [
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
-    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "content/posts/draft/draft.md",
     "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/🧩杂七杂八/记录/考研记录.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
@@ -253,7 +254,6 @@
     "content/posts/NiFi/NiFi性能调优.md",
     "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
-    "content/posts/draft/draft.md",
     "content/posts/DevOps/DolphinScheduler持续化集成方案.md",
     "content/posts/DevOps/CICD打包部署流程梳理.md",
     "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
