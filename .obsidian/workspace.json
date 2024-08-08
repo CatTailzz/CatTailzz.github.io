@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md"
+                "file": "🏡knowledgeGarden/🎯TODO.md"
               }
             }
           }
@@ -214,8 +213,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9da852ce006195d8",
+  "active": "380ac1dcc078c51c",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
@@ -260,7 +260,6 @@
     "content/posts/DevOps/持续化集成博客方案：Obsidian + Hugo + github actions.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "未命名.md",
-    "content/posts/maven/maven私服上传流程.md",
-    "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门.md"
+    "content/posts/maven/maven私服上传流程.md"
   ]
 }
