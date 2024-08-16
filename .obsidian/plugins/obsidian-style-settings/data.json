@@ -38,5 +38,7 @@
   "Components@@tab-title-bar-autohide": false,
   "Appearance-light@@card-layout-open-light": false,
   "Appearance-light@@theme-light-style-select": "theme-light-background-default",
-  "Appearance-light@@card-highlight-light": true
+  "Appearance-light@@card-highlight-light": true,
+  "Editor@@table-width-select": "table-width-customized",
+  "Editor@@table-width": 93
 }
