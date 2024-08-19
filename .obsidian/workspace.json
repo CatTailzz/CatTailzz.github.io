@@ -100,18 +100,6 @@
             }
           },
           {
-            "id": "9fb120a2605678c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ca1c96968873a30f",
             "type": "leaf",
             "state": {
@@ -123,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md"
+                "file": "🏡knowledgeGarden/🎯TODO.md"
               }
             }
           }
@@ -253,22 +240,24 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9fb120a2605678c0",
+  "active": "380ac1dcc078c51c",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/场景设计/二维码扫码登录设计.md",
-    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/😭暑期投递记录.md",
     "Excalidraw/Drawing 2024-08-15 18.09.30.excalidraw.md",
     "Excalidraw/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
     "未命名.canvas",
@@ -277,13 +266,11 @@
     "content/场景设计/二维码扫码登录设计",
     "content/场景设计",
     "content/posts/场景设计",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
     "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
     "🏡knowledgeGarden/😎碎碎念/2024.3.2.md",
     "content/posts/draft/draft.md",
     "🏡knowledgeGarden/🧩杂七杂八/记录/考研记录.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "content/posts/NiFi/NiFiSDK开发流程.md",
     "public/index.xml",
     "public/tags/博客搭建/page/1/index.html",
