@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "4b31c604307f69d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "75c7201c6484c21a",
             "type": "leaf",
             "pinned": true,
@@ -100,18 +88,43 @@
             }
           },
           {
+            "id": "4b31c604307f69d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/NiFi/NiFi调研报告.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ca1c96968873a30f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+                "file": "content/posts/NiFi/NiFi调研报告.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcde258988bc9b17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -177,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md"
               }
             }
           }
@@ -240,18 +253,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "380ac1dcc078c51c",
+  "active": "fcde258988bc9b17",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
-    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "content/posts/NiFi/NiFi调研报告.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
+    "content/posts/NiFi/NiFi语料.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "content/About.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/场景设计/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/😭暑期投递记录.md",
     "Excalidraw/Drawing 2024-08-15 18.09.30.excalidraw.md",
@@ -270,8 +286,6 @@
     "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
     "🏡knowledgeGarden/😎碎碎念/2024.3.2.md",
     "content/posts/draft/draft.md",
-    "🏡knowledgeGarden/🧩杂七杂八/记录/考研记录.md",
-    "content/posts/NiFi/NiFiSDK开发流程.md",
     "public/index.xml",
     "public/tags/博客搭建/page/1/index.html",
     "public/tags/其他/page/1/index.html",
@@ -287,7 +301,6 @@
     "public/icon/safari-pinned-tab.svg",
     "public/icon/mstile-150x150.png",
     "public/icon/favicon-32x32.png",
-    "public/icon/favicon-16x16.png",
-    "content/About.md"
+    "public/icon/favicon-16x16.png"
   ]
 }
