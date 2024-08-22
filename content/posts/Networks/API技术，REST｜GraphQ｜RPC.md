@@ -50,6 +50,7 @@ GraphQL 也有 REST 类似的语义，它规定了 Query、Mutation、Subscripti
 参考一下：
 
 [# 最心疼前端程序员的架构【让编程再次伟大#13】](https://www.bilibili.com/video/BV1iE421w7AN/?spm_id_from=333.999.0.0&vd_source=2217ffdee0afbd23565ec6a929840035)
+
 [# 【GraphQL Codegen】神器，前端无法拒绝的开发体验](https://www.bilibili.com/video/BV1ra4y127eK/?spm_id_from=333.999.top_right_bar_window_history.content.click&vd_source=2217ffdee0afbd23565ec6a929840035)
 
 ## 缺陷
