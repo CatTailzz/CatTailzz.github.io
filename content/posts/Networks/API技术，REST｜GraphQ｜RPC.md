@@ -15,11 +15,11 @@ message:
 
 API，全称为 application programming interface，意思是应用程序接口，负责多个软件之间的调用、交互。
 
-现在的 API 往往是前后端的资源交换渠道，API 的设计和架构往往关系到双方的工作量和代码是否优雅
+现在的 API 往往是前后端的资源交换渠道，API 的设计和架构往往关系到双方的工作量和代码是否优雅。
 
 # REST
 
-REpresentational State Transfer，资源的表示性状态传输
+REpresentational State Transfer，资源的表示性状态传输。
 
 ## 6个约束
 
@@ -32,15 +32,29 @@ REpresentational State Transfer，资源的表示性状态传输
 
 ## 缺陷
 
-- 获取不足和过度获取，比如有的功能实现依赖于多个 API 的搭配，有的功能却无法充分利用 API 返回的全部资源。
+- 获取不足和过度获取，比如有的功能实现依赖于多个 API 的搭配，有的功能却只需要某个资源的一小个子集。
 - 随着系统复杂度加深，调用链路逐渐增长，总 RT 增加，排错困难。
 - 很难应对需求变更，频频打补丁。
 - 十分依赖文档编写。
 
 # GraphQL
 
+不再是【前端】-【后端】的交互，而是【前端】-【GraphQL 中间层】-【后端】，中间的 GraphQL 是服务器性质的，定义一些双方约定的数据模型 schema，通常有着严格的类型校验，GraphQL 服务器负责接收前端的资源请求，再去后端服务获取数据。
+
+GraphQL 也有 REST 类似的语义，它规定了 Query、Mutation、Subscription 这些操作，其中 Subscription 更是实时交互的利器，还可以实现推送、轮询等功能。
+
+相比 REST 的优势是，不再需要多个请求了，而是一个 URL 对应一大批资源。对于后端程序员来说把 N 个小请求变成了 1 个大请求，工作量也许不相上下，但复杂度高了很多，风险也集中了。对于前端程序员来说，获取资源更加方便了，再也不必因为缺少特定需求的 API 而等待后段程序猿帮你写，实现了双方人员的解耦。
+
+似乎在国内没有很好的普及开来，可能有营销的原因，也可能因为国内软件开发环境和需求环境不同于外面。
+
+参考一下：
+
+[# 最心疼前端程序员的架构【让编程再次伟大#13】](https://www.bilibili.com/video/BV1iE421w7AN/?spm_id_from=333.999.0.0&vd_source=2217ffdee0afbd23565ec6a929840035)
+[# 【GraphQL Codegen】神器，前端无法拒绝的开发体验](https://www.bilibili.com/video/BV1ra4y127eK/?spm_id_from=333.999.top_right_bar_window_history.content.click&vd_source=2217ffdee0afbd23565ec6a929840035)
+
 ## 缺陷
 
-- 需要有安全措施
+- 后端优化查询会十分困难
+- 开发成本高、学习成本高
 
 
