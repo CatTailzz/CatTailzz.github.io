@@ -163,7 +163,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.50390243530273
+    "width": 402.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "d5e1f5aaf555b617",
@@ -229,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md"
               }
             }
           }
@@ -278,7 +280,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,12 +295,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "380ac1dcc078c51c",
+  "active": "240ac7cbc863a5a2",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
     "content/posts/Networks/未命名.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
