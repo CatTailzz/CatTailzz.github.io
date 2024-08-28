@@ -126,43 +126,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "7ae7d129ac00d7c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6f076e76d832f30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Networks/重新理解计算机网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b84e6e07d811b5a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/重新理解计算机网络.md"
-              }
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -228,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Networks/重新理解计算机网络.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Networks/重新理解计算机网络.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Networks/重新理解计算机网络.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md"
               }
             }
           }
@@ -291,16 +257,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d6f076e76d832f30",
+  "active": "7a0006e6d07aeb4d",
   "lastOpenFiles": [
-    "Excalidraw/重新理解计算机网络.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/Networks/重新理解计算机网络.md",
+    "Excalidraw/重新理解计算机网络.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "content/posts/NiFi/NiFi调研报告.md",
-    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
