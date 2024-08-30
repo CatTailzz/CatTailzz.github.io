@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "9008d1e985bd4d05",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "d0c0869a7755df9c",
             "type": "leaf",
             "state": {
@@ -128,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md"
               }
             }
           }
@@ -257,18 +271,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9da852ce006195d8",
+  "active": "7f0488a614611f32",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/Networks/重新理解计算机网络.md",
     "Excalidraw/重新理解计算机网络.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "content/posts/NiFi/NiFi调研报告.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "content/posts/Networks/未命名.md",
     "content/posts/计算机网络/未命名",
@@ -276,13 +292,11 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "content/posts/NiFi/NiFi语料.md",
     "content/About.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/场景设计/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/😭暑期投递记录.md",
     "Excalidraw/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
     "content/posts/DevOps/git常见场景及解决方案.md",
     "未命名.canvas",
