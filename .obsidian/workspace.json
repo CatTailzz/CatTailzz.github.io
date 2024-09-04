@@ -148,6 +148,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2417dda2bc20e1cc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂七杂八的图.md"
+              }
+            }
           }
         ],
         "currentTab": 10
@@ -200,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.50390243530273
+    "width": 394.50390243530273
   },
   "right": {
     "id": "d5e1f5aaf555b617",
@@ -281,6 +291,8 @@
   },
   "active": "ccada3d586532f27",
   "lastOpenFiles": [
+    "Excalidraw/杂七杂八的图.md",
+    "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
@@ -307,8 +319,6 @@
     "content/About.md",
     "content/posts/场景设计/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/😭暑期投递记录.md",
-    "Excalidraw/二维码扫码登录设计.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
     "未命名.canvas",
     "Excalidraw",
     "content/场景设计/二维码扫码登录设计",
