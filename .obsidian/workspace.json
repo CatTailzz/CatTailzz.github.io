@@ -136,31 +136,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ccada3d586532f27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2417dda2bc20e1cc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/杂七杂八的图.md"
-              }
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -226,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
               }
             }
           }
@@ -289,23 +267,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ccada3d586532f27",
+  "active": "dfc292bc60716f3a",
   "lastOpenFiles": [
-    "Excalidraw/杂七杂八的图.md",
-    "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+    "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
+    "Excalidraw/杂七杂八的图.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "Excalidraw/Drawing 2024-09-03 14.16.33.excalidraw.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/Networks/重新理解计算机网络.md",
