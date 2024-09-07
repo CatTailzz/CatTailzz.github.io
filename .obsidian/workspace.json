@@ -138,19 +138,19 @@
             }
           },
           {
-            "id": "2b8a404f77ba6e9e",
+            "id": "3b2d46a6389b70ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/场景设计/站内消息系统.md",
+                "file": "content/posts/场景设计/积分系统.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.50390243530273,
-    "collapsed": true
+    "width": 394.50390243530273
   },
   "right": {
     "id": "d5e1f5aaf555b617",
@@ -217,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/场景设计/站内消息系统.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/场景设计/站内消息系统.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/场景设计/站内消息系统.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -280,17 +279,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "2b8a404f77ba6e9e",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "content/posts/场景设计/积分系统.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/场景设计/站内消息系统.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/DevOps/使用K8sJavaClient监控配置文件实现自动化部署.md",
     "Excalidraw/杂七杂八的图.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
@@ -309,7 +309,6 @@
     "content/posts/Networks",
     "content/posts/NiFi/NiFi语料.md",
     "content/About.md",
-    "content/posts/场景设计/二维码扫码登录设计.md",
     "未命名.canvas",
     "Excalidraw",
     "content/场景设计/二维码扫码登录设计",
