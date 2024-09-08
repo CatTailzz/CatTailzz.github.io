@@ -174,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md"
               }
             }
           }
@@ -303,12 +303,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "dfc292bc60716f3a",
+  "active": "31faa5995601b6eb",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟二面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
