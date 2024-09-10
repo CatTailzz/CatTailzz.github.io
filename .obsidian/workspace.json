@@ -106,9 +106,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7aa85d78cf5eedd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -237,13 +249,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d0c0869a7755df9c",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "content/posts/场景设计/热搜系统设计.md",
     "content/posts/场景设计/积分系统.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
@@ -264,7 +277,6 @@
     "Excalidraw/Drawing 2024-09-03 14.16.33.excalidraw.md",
     "content/posts/DevOps/移动端（邮件、钉钉、飞书、短信）免登轻运营组件.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
