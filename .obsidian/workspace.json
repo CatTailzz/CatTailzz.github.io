@@ -60,15 +60,17 @@
             }
           },
           {
-            "id": "31faa5995601b6eb",
+            "id": "3d4094f879607252",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/场景设计/统计用户在线时长.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -96,18 +98,6 @@
             }
           },
           {
-            "id": "2efa95d691e32202",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/场景设计/热搜系统设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7aa85d78cf5eedd3",
             "type": "leaf",
             "state": {
@@ -120,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/场景设计/统计用户在线时长.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/场景设计/统计用户在线时长.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/场景设计/统计用户在线时长.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -249,26 +239,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "31faa5995601b6eb",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
+    "content/posts/场景设计/热搜系统设计.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "content/posts/场景设计/统计用户在线时长.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "content/posts/场景设计/站内消息系统.md",
     "content/posts/场景设计/微信抢红包.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
-    "content/posts/场景设计/热搜系统设计.md",
     "content/posts/场景设计/积分系统.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/算法小笔记Java.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "content/posts/场景设计/实时聊天系统.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-腾讯一面二面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-全知科技一面二面三面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟二面.md",
