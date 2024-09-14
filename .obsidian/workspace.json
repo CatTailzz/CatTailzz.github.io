@@ -133,7 +133,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
               }
             }
           }
@@ -262,10 +263,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "380ac1dcc078c51c",
+  "active": "dfc292bc60716f3a",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
