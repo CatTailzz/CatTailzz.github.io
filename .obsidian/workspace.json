@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "d0c0869a7755df9c",
+            "id": "4779a857d88224b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -263,11 +263,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "dfc292bc60716f3a",
+  "active": "3c71489ad5b6ab85",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "content/posts/Networks/JavaNIO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
@@ -290,7 +291,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-腾讯一面二面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-全知科技一面二面三面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟二面.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
