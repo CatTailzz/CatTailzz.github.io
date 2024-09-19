@@ -36,7 +36,7 @@ buffer 有几个重要属性，并且在不同模式下会切换
 
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409192117728.png)
 
-关于这里的 mark，是提供给用户的一个标记位，调用 mark() 方法会给 mark 赋值为当前的position，reset()
+关于这里的 mark，是提供给用户的一个标记位，调用 mark() 方法会给 mark 赋值为当前的position，再调用 reset() 则会把 position 重新置为 mark
 
 ### 空间分配
 
