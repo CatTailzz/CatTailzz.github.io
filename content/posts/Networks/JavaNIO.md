@@ -67,3 +67,9 @@ select() 方法会阻塞，直到有某个 channel 就绪了，那么**何时不
 
 - 事件发生时
 	- 发起连接请求，触发了 accept 事件，且这个事件没被处理
+	- 发送数据，客户端正常、异常关闭，都会触发 read 事件
+	- channel 可写时触发 write 事件
+	- linux 下 nio bug 发生时
+- 调用 selector.wakeup()
+- 调用 selector.close()
+- 当前线程被 interrupt
