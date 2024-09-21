@@ -73,3 +73,6 @@ select() 方法会阻塞，直到有某个 channel 就绪了，那么**何时不
 - 调用 selector.wakeup()
 - 调用 selector.close()
 - 当前线程被 interrupt
+
+## 零拷贝
+
