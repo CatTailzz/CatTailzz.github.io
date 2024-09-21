@@ -76,3 +76,16 @@ select() 方法会阻塞，直到有某个 channel 就绪了，那么**何时不
 
 ## 零拷贝
 
+- 第一阶段
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211931416.png)
+- 第二阶段
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211943180.png)
+- 第三阶段
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211944831.png)
+
+- 第四阶段
+![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211944091.png)
+
+## AIO
+
+异步的一种常见处理是，主线程尝试读写操作，并把获取到数据后的操作封装成一个回调函数，接着不管是否有数据准备好，都直接返回进行其他操作。而当数据真的准备好时，会有另一个线程来执行回调函数做后续操作。异步的关键就是，有另一个线程来做处理，不阻塞主线程。
