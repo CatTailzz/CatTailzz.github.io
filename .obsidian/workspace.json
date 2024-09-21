@@ -34,26 +34,6 @@
             }
           },
           {
-            "id": "4779a857d88224b2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/重新理解计算机网络.md"
-              }
-            }
-          },
-          {
-            "id": "65b6aaef4e897bea",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/网络编程.md"
-              }
-            }
-          },
-          {
             "id": "9008d1e985bd4d05",
             "type": "leaf",
             "pinned": true,
@@ -154,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Networks/JavaNIO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Networks/JavaNIO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Networks/JavaNIO.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -283,19 +263,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6cf2a35410c03e65",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
-    "Excalidraw/网络编程.md",
-    "content/posts/Networks/JavaNIO.md",
-    "Excalidraw/重新理解计算机网络.md",
-    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
-    "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "Excalidraw/重新理解计算机网络.md",
+    "content/posts/Networks/JavaNIO.md",
+    "Excalidraw/网络编程.md",
+    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
+    "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
     "content/posts/Networks/重新理解计算机网络2：写一个tinyhttp.md",
     "content/posts/Networks/重新理解计算机网络1：理解网络层之下.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
