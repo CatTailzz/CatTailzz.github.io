@@ -77,13 +77,19 @@ select() 方法会阻塞，直到有某个 channel 就绪了，那么**何时不
 ## 零拷贝
 
 - 第一阶段
+
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211931416.png)
+
 - 第二阶段
+
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211943180.png)
+
 - 第三阶段
+
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211944831.png)
 
 - 第四阶段
+
 ![image.png](https://obsidian-img-1300316500.cos.ap-shanghai.myqcloud.com/cattail/obsidian/pic/202409211944091.png)
 
 ## AIO

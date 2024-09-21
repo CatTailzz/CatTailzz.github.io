@@ -134,7 +134,7 @@
             }
           },
           {
-            "id": "6cf2a35410c03e65",
+            "id": "46e01d24970de489",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,8 +145,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
+                "file": "🏡knowledgeGarden/🎯TODO.md"
               }
             }
           }
@@ -275,22 +274,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9008d1e985bd4d05",
+  "active": "380ac1dcc078c51c",
   "lastOpenFiles": [
+    "content/posts/Networks/JavaNIO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
+    "content/posts/Networks/重新理解计算机网络2：写一个tinyhttp.md",
+    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
-    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "Excalidraw/重新理解计算机网络.md",
-    "content/posts/Networks/JavaNIO.md",
     "Excalidraw/网络编程.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
-    "content/posts/Networks/重新理解计算机网络2：写一个tinyhttp.md",
     "content/posts/Networks/重新理解计算机网络1：理解网络层之下.md",
     "content/posts/场景设计/热搜系统设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
