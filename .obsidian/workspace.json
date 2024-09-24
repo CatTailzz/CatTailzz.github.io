@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md"
               }
             }
           }
@@ -215,13 +215,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3d4094f879607252",
+  "active": "dfc292bc60716f3a",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/Mysql题.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
-    "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "content/posts/场景设计/评论系统设计.md",
     "content/posts/场景设计/直播弹幕系统设计.md",
@@ -241,8 +243,6 @@
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
     "content/posts/Networks/重新理解计算机网络1：理解网络层之下.md",
-    "content/posts/场景设计/热搜系统设计.md",
-    "content/posts/场景设计/统计用户在线时长.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
