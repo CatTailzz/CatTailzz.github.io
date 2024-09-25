@@ -86,31 +86,15 @@
             }
           },
           {
-            "id": "30c4f09ac50367d7",
+            "id": "551212febe76132b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e322f2d0139a7564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/NiFi/NiFi调研报告.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -176,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/NiFi/NiFi调研报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/NiFi/NiFi调研报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/posts/NiFi/NiFi调研报告.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -239,8 +219,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e322f2d0139a7564",
+  "active": "551212febe76132b",
   "lastOpenFiles": [
+    "content/posts/NiFi/NiFi调研报告.md",
+    "content/posts/Java/为什么Java服务要部署在tomcat上？而go的不用.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/🎯TODO.md",
@@ -265,8 +247,6 @@
     "Excalidraw/重新理解计算机网络.md",
     "Excalidraw/网络编程.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
-    "content/posts/DevOps/监听binlog实现数据库缓存数据同步.md",
-    "content/posts/Networks/重新理解计算机网络1：理解网络层之下.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
