@@ -84,32 +84,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0c23e2b21fb4edb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a848ed8905cab7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
               }
             }
           }
@@ -238,15 +215,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "380ac1dcc078c51c",
+  "active": "adf90621361b254c",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "content/posts/NiFi/NiFi调研报告.md",
     "content/posts/Java/为什么Java服务要部署在tomcat上？而go的不用.md",
