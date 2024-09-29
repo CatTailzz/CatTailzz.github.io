@@ -22,12 +22,26 @@
             }
           },
           {
+            "id": "8acd8da2d7a86f78",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "adf90621361b254c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md"
               }
             }
           }
@@ -215,9 +229,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "adf90621361b254c",
+  "active": "8acd8da2d7a86f78",
   "lastOpenFiles": [
     "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
@@ -241,8 +257,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
     "content/posts/Networks/重新理解计算机网络2：写一个tinyhttp.md",
     "content/posts/Networks/JavaNIO.md",
-    "Excalidraw/重新理解计算机网络.md",
-    "Excalidraw/网络编程.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
