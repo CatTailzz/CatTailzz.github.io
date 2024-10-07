@@ -36,15 +36,17 @@
             }
           },
           {
-            "id": "adf90621361b254c",
+            "id": "42522fa00ff238f4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -98,9 +100,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16edb81924e9d5af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -166,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md"
               }
             }
           }
@@ -229,14 +243,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3d4094f879607252",
+  "active": "16edb81924e9d5af",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/🎯TODO.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
@@ -255,8 +271,6 @@
     "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/美团-9.8-AI面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-菜鸟线下一面.md",
-    "content/posts/Networks/重新理解计算机网络2：写一个tinyhttp.md",
-    "content/posts/Networks/JavaNIO.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
