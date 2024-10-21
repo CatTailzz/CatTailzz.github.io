@@ -74,9 +74,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5bff72f8682fb192",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/随时手写一下.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/手撕算法.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md"
               }
             }
           }
@@ -203,14 +217,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "240ac7cbc863a5a2",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
+    "Excalidraw/随时手写一下.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "Excalidraw/手撕算法.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/🎯TODO.md",
@@ -230,7 +245,6 @@
     "content/posts/others/沟通指南.md",
     "content/About.md",
     "content/posts/draft/draft.md",
-    "content/posts/Linux/Linux内核可加载模块探索：防制丐版NSA后门.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
