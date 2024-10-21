@@ -86,6 +86,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "572a7c48ebcfb301",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/重新理解计算机网络.md"
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -219,15 +229,16 @@
   },
   "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
+    "Excalidraw/重新理解计算机网络.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "Excalidraw/随时手写一下.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
     "Excalidraw/手撕算法.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
@@ -244,7 +255,6 @@
     "content/posts/others/如何在Markdown中打印文件结构树.md",
     "content/posts/others/沟通指南.md",
     "content/About.md",
-    "content/posts/draft/draft.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
