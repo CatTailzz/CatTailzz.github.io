@@ -54,35 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3d4094f879607252",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "991d313d14c98d00",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
                 "mode": "source",
                 "source": false
               },
@@ -112,9 +84,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e050576f81da5ed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:draft",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md"
               }
             }
           }
@@ -243,16 +227,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "42522fa00ff238f4",
+  "active": "9008d1e985bd4d05",
   "lastOpenFiles": [
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/全知科技-实习总结-NiFi.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/mini-spring.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/秒杀项目.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥赵沈杰的校招指南.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🔥赵沈杰的校招指南.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-来未来一面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
     "Excalidraw/随时手写一下.md",
@@ -267,10 +257,6 @@
     "content/posts/Java/为什么Java服务要部署在tomcat上？而go的不用.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/Mysql题.md",
-    "content/posts/场景设计/评论系统设计.md",
-    "content/posts/场景设计/直播弹幕系统设计.md",
-    "content/posts/others/写博客tips.md",
-    "content/posts/others/如何在Markdown中打印文件结构树.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
@@ -280,8 +266,6 @@
     "content/posts/场景设计",
     "public/index.xml",
     "public/tags/博客搭建/page/1/index.html",
-    "public/tags/其他/page/1/index.html",
-    "public/tags/nifi/page/1/index.html",
     "public/lib/simple-icons/icons/tencentqq.min.svg",
     "public/lib/lightgallery/images/loading.gif",
     "public/lib/lightgallery/fonts/lg.svg",
