@@ -89,16 +89,24 @@
             "id": "e050576f81da5ed2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/二维码扫码登录设计.md"
+              }
+            }
+          },
+          {
+            "id": "42d02171fdc01045",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/手写RPC.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -164,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
+                "file": "Excalidraw/手写RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
+                "file": "Excalidraw/手写RPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md"
+                "file": "Excalidraw/手写RPC.md"
               }
             }
           }
@@ -227,11 +235,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e050576f81da5ed2",
+  "active": "42d02171fdc01045",
   "lastOpenFiles": [
+    "Excalidraw/二维码扫码登录设计.md",
+    "Excalidraw/手写RPC.md",
+    "Excalidraw/网络编程.md",
+    "Excalidraw/随时手写一下.md",
+    "Excalidraw/杂七杂八的图.md",
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/全知科技-实习总结-NiFi.md",
@@ -245,7 +258,6 @@
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-来未来一面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-    "Excalidraw/随时手写一下.md",
     "Excalidraw/重新理解计算机网络.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
@@ -253,10 +265,6 @@
     "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/携程-9.12-线下一二面.md",
-    "content/posts/NiFi/NiFi调研报告.md",
-    "content/posts/Java/为什么Java服务要部署在tomcat上？而go的不用.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/⚙️指令操作/Mysql.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💯刷题/Mysql题.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
