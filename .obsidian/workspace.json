@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "Excalidraw/手写RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "Excalidraw/手写RPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "Excalidraw/手写RPC.md"
               }
             }
           }
@@ -235,8 +235,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "42522fa00ff238f4",
+  "active": "42d02171fdc01045",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "Excalidraw/手写RPC.md",
     "Excalidraw/二维码扫码登录设计.md",
@@ -244,7 +245,6 @@
     "Excalidraw/随时手写一下.md",
     "Excalidraw/杂七杂八的图.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/全知科技-实习总结-NiFi.md",
