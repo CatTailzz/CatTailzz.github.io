@@ -86,16 +86,6 @@
             }
           },
           {
-            "id": "e050576f81da5ed2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/二维码扫码登录设计.md"
-              }
-            }
-          },
-          {
             "id": "42d02171fdc01045",
             "type": "leaf",
             "state": {
@@ -105,8 +95,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md"
               }
             }
           }
@@ -235,18 +224,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "42522fa00ff238f4",
+  "active": "8acd8da2d7a86f78",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "Excalidraw/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "Excalidraw/手写RPC.md",
-    "Excalidraw/二维码扫码登录设计.md",
     "Excalidraw/网络编程.md",
     "Excalidraw/随时手写一下.md",
     "Excalidraw/杂七杂八的图.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/mini-spring.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/秒杀项目.md",
