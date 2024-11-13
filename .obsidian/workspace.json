@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,19 +96,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "42d02171fdc01045",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/手写RPC.md"
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -174,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md"
               }
             }
           }
@@ -237,10 +227,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "afd1c768310b2a00",
+  "active": "7ac2ed2c6b57c78e",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "Excalidraw/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
