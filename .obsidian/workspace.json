@@ -60,45 +60,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5bff72f8682fb192",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/随时手写一下.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ac2ed2c6b57c78e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afd1c768310b2a00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/MAE探索过程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/MAE探索过程.md",
+                "file": "content/posts/场景设计/二维码扫码登录设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/MAE探索过程.md",
+                "file": "content/posts/场景设计/二维码扫码登录设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/MAE探索过程.md"
+                "file": "content/posts/场景设计/二维码扫码登录设计.md"
               }
             }
           }
@@ -227,10 +191,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "afd1c768310b2a00",
+  "active": "240ac7cbc863a5a2",
   "lastOpenFiles": [
+    "content/About.md",
+    "content/posts/others/沟通指南.md",
+    "content/posts/others/写博客tips.md",
+    "content/posts/others/如何在Markdown中打印文件结构树.md",
+    "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
+    "content/posts/Networks/JavaNIO.md",
+    "Excalidraw/随时手写一下.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "Excalidraw/MAE探索过程.md",
+    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
+    "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "Excalidraw/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
@@ -238,7 +210,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "Excalidraw/二维码扫码登录设计.md",
     "Excalidraw/网络编程.md",
-    "Excalidraw/随时手写一下.md",
     "Excalidraw/杂七杂八的图.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
@@ -249,14 +220,7 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
-    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-来未来一面.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技.md",
-    "Excalidraw/重新理解计算机网络.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/攒的面经/全放一起吧😋.md",
-    "Excalidraw/手撕算法.md",
-    "🏡knowledgeGarden/🎯TODO.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/华为-9.26-线下-一二主管面.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
