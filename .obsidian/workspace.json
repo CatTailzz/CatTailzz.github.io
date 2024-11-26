@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/场景设计/二维码扫码登录设计.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/场景设计/二维码扫码登录设计.md",
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/场景设计/二维码扫码登录设计.md"
+                "file": "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md"
               }
             }
           }
@@ -191,8 +191,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "240ac7cbc863a5a2",
+  "active": "42522fa00ff238f4",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
+    "content/posts/场景设计/二维码扫码登录设计.md",
     "content/About.md",
     "content/posts/others/沟通指南.md",
     "content/posts/others/写博客tips.md",
@@ -205,7 +207,6 @@
     "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "Excalidraw/手写RPC.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "Excalidraw/二维码扫码登录设计.md",
@@ -220,7 +221,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/我的面经/暑期-来未来一面.md",
     "content/posts/计算机网络/未命名",
     "content/posts/Networks",
     "未命名.canvas",
