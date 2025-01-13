@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5ca6e2f58491b0e1",
+        "id": "5449f6e8230fd94d",
         "type": "tabs",
         "children": [
           {
-            "id": "0696842a1c9578c7",
+            "id": "81af6ac308bd99e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "毕业论文"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "毕业论文 的反向链接列表"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "毕业论文 的出链列表"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "毕业论文 的大纲"
             }
           }
         ],
@@ -151,27 +159,32 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "hide-folders:Show hidden folders": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0696842a1c9578c7",
+  "active": "81af6ac308bd99e5",
   "lastOpenFiles": [
+    "content/About.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文.md",
+    "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
+    "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
+    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
+    "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
     "content/posts/场景设计/二维码扫码登录设计.md",
-    "content/About.md",
     "content/posts/others/沟通指南.md",
     "content/posts/others/写博客tips.md",
     "content/posts/others/如何在Markdown中打印文件结构树.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/Networks/JavaNIO.md",
     "Excalidraw/随时手写一下.md",
-    "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "Excalidraw/手写RPC.md",
     "Excalidraw/二维码扫码登录设计.md",
     "Excalidraw/网络编程.md",
@@ -179,9 +192,6 @@
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/手写RPC.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/全知科技-实习总结-NiFi.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/mini-spring.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/秒杀项目.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/🧱搬砖记录/全知科技-实习总结-轻办公运营组件.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥赵沈杰的校招指南.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
