@@ -10,6 +10,7 @@
           {
             "id": "81af6ac308bd99e5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "进度"
             }
@@ -24,6 +26,7 @@
           {
             "id": "b09ec1268e96d4ff",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -31,12 +34,29 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "论文语料"
             }
+          },
+          {
+            "id": "b31f5c566111bfb4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "毕业论文语料库"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "论文语料 的反向链接列表"
+              "title": "毕业论文语料库 的反向链接列表"
             }
           },
           {
@@ -127,12 +147,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "论文语料 的出链列表"
+              "title": "毕业论文语料库 的出链列表"
             }
           },
           {
@@ -154,10 +174,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md"
               },
               "icon": "lucide-list",
-              "title": "论文语料 的大纲"
+              "title": "毕业论文语料库 的大纲"
             }
           }
         ],
@@ -179,15 +199,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b09ec1268e96d4ff",
+  "active": "b31f5c566111bfb4",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/进度.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文语料库.md",
     "content/About.md",
     "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
     "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
