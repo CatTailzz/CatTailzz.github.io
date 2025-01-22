@@ -59,16 +59,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "毕业论文语料库"
+              "title": "大纲"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +211,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "76702daf79aa88fb",
+  "active": "b31f5c566111bfb4",
   "lastOpenFiles": [
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/什么是可验证常数？.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/可验证常数的计算问题.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
@@ -239,7 +240,6 @@
     "Excalidraw/手写RPC.md",
     "Excalidraw/二维码扫码登录设计.md",
     "Excalidraw/网络编程.md",
-    "Excalidraw/杂七杂八的图.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
