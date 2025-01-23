@@ -73,12 +73,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大纲"
+              "title": "改进"
             }
           }
         ],
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "大纲 的反向链接列表"
+              "title": "改进 的反向链接列表"
             }
           },
           {
@@ -173,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "大纲 的出链列表"
+              "title": "改进 的出链列表"
             }
           },
           {
@@ -200,10 +200,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md"
               },
               "icon": "lucide-list",
-              "title": "大纲 的大纲"
+              "title": "改进 的大纲"
             }
           }
         ],
@@ -228,8 +228,9 @@
   "active": "805cc35cc510f2e6",
   "lastOpenFiles": [
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/改进.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/什么是可验证常数？.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/可验证常数的计算问题.md",
@@ -253,7 +254,6 @@
     "Excalidraw/随时手写一下.md",
     "Excalidraw/手写RPC.md",
     "Excalidraw/二维码扫码登录设计.md",
-    "Excalidraw/网络编程.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
