@@ -81,7 +81,8 @@
               "title": "改进"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "进度 的反向链接列表"
+              "title": "改进 的反向链接列表"
             }
           },
           {
@@ -172,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "进度 的出链列表"
+              "title": "改进 的出链列表"
             }
           },
           {
@@ -199,10 +200,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/改进.md"
               },
               "icon": "lucide-list",
-              "title": "进度 的大纲"
+              "title": "改进 的大纲"
             }
           }
         ],
@@ -224,13 +225,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "81af6ac308bd99e5",
+  "active": "805cc35cc510f2e6",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/改进.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/什么是可验证常数？.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/可验证常数的计算问题.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文",
