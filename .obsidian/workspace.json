@@ -138,8 +138,23 @@
               "icon": "lucide-file",
               "title": "国内外研究现状"
             }
+          },
+          {
+            "id": "79620bcd314dd4e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "相关理论和技术介绍"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -211,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +236,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "进度 的反向链接列表"
+              "title": "相关理论和技术介绍 的反向链接列表"
             }
           },
           {
@@ -230,12 +245,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "进度 的出链列表"
+              "title": "相关理论和技术介绍 的出链列表"
             }
           },
           {
@@ -257,10 +272,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md"
               },
               "icon": "lucide-list",
-              "title": "进度 的大纲"
+              "title": "相关理论和技术介绍 的大纲"
             }
           }
         ],
@@ -282,11 +297,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "81af6ac308bd99e5",
+  "active": "79620bcd314dd4e2",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
@@ -310,7 +326,6 @@
     "content/posts/others/如何在Markdown中打印文件结构树.md",
     "content/posts/Networks/API技术，REST｜GraphQ｜RPC.md",
     "content/posts/Networks/JavaNIO.md",
-    "Excalidraw/随时手写一下.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
