@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "国内外研究现状 的反向链接列表"
+              "title": "毕业论文语料库 的反向链接列表"
             }
           },
           {
@@ -231,12 +231,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "国内外研究现状 的出链列表"
+              "title": "毕业论文语料库 的出链列表"
             }
           },
           {
@@ -258,10 +258,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md"
               },
               "icon": "lucide-list",
-              "title": "国内外研究现状 的大纲"
+              "title": "毕业论文语料库 的大纲"
             }
           }
         ],
@@ -283,12 +283,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1a8069e69e4fc414",
+  "active": "b31f5c566111bfb4",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
     "🏡knowledgeGarden/🎓科研记录/改进.md",
