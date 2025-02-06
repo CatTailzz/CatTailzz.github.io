@@ -139,7 +139,8 @@
               "title": "国内外研究现状"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -211,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +222,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "进度 的反向链接列表"
+              "title": "国内外研究现状 的反向链接列表"
             }
           },
           {
@@ -230,12 +231,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "进度 的出链列表"
+              "title": "国内外研究现状 的出链列表"
             }
           },
           {
@@ -257,10 +258,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md"
               },
               "icon": "lucide-list",
-              "title": "进度 的大纲"
+              "title": "国内外研究现状 的大纲"
             }
           }
         ],
@@ -282,10 +283,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "81af6ac308bd99e5",
+  "active": "1a8069e69e4fc414",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
     "🏡knowledgeGarden/🎓科研记录/论文语料.md",
