@@ -195,8 +195,7 @@
               "title": "总结与展望"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +277,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "总结与展望 的反向链接列表"
+              "title": "进度 的反向链接列表"
             }
           },
           {
@@ -287,12 +286,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "总结与展望 的出链列表"
+              "title": "进度 的出链列表"
             }
           },
           {
@@ -314,10 +313,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
               },
               "icon": "lucide-list",
-              "title": "总结与展望 的大纲"
+              "title": "进度 的大纲"
             }
           }
         ],
@@ -339,10 +338,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea9bf83104698cb4",
+  "active": "81af6ac308bd99e5",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/3.基于对抗净化与全局平滑的随机平滑认证方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
