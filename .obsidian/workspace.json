@@ -181,8 +181,7 @@
               "title": "相关理论和技术介绍"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +263,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "相关理论和技术介绍 的反向链接列表"
+              "title": "进度 的反向链接列表"
             }
           },
           {
@@ -273,12 +272,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "相关理论和技术介绍 的出链列表"
+              "title": "进度 的出链列表"
             }
           },
           {
@@ -300,10 +299,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
               },
               "icon": "lucide-list",
-              "title": "相关理论和技术介绍 的大纲"
+              "title": "进度 的大纲"
             }
           }
         ],
@@ -325,8 +324,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "22f53ce83e38b68e",
+  "active": "81af6ac308bd99e5",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/3.基于对抗净化与全局平滑的随机平滑认证方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
@@ -342,7 +342,6 @@
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/改进.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/什么是可验证常数？.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/可验证常数的计算问题.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文",
