@@ -22,181 +22,8 @@
               "icon": "lucide-file",
               "title": "进度"
             }
-          },
-          {
-            "id": "b31f5c566111bfb4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "毕业论文语料库"
-            }
-          },
-          {
-            "id": "1fbe6820798873b2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "76702daf79aa88fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "论文语料"
-            }
-          },
-          {
-            "id": "a373c9a99d223711",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "毕业论文语料库"
-            }
-          },
-          {
-            "id": "0c40452d62234c5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第二点的损失函数改进"
-            }
-          },
-          {
-            "id": "39537672f8626a9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MAE探索过程"
-            }
-          },
-          {
-            "id": "df603333764c34f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/3.基于对抗净化与全局平滑的随机平滑认证方法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.基于对抗净化与全局平滑的随机平滑认证方法"
-            }
-          },
-          {
-            "id": "a4581b7083e60edc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/论文语料.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "论文语料"
-            }
-          },
-          {
-            "id": "5b6a9cbe4180d729",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第二点的损失函数改进"
-            }
-          },
-          {
-            "id": "22f53ce83e38b68e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "相关理论和技术介绍"
-            }
-          },
-          {
-            "id": "2c6ded2808ce9723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4.基于高效微调的去噪平滑优化方法"
-            }
-          },
-          {
-            "id": "a64e68807482a2f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎯TODO"
-            }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -268,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "🎯TODO 的反向链接列表"
+              "title": "进度 的反向链接列表"
             }
           },
           {
@@ -287,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "🎯TODO 的出链列表"
+              "title": "进度 的出链列表"
             }
           },
           {
@@ -314,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎯TODO.md"
+                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
               },
               "icon": "lucide-list",
-              "title": "🎯TODO 的大纲"
+              "title": "进度 的大纲"
             }
           }
         ],
@@ -339,27 +166,28 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a64e68807482a2f3",
+  "active": "81af6ac308bd99e5",
   "lastOpenFiles": [
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
+    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
+    "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/3.基于对抗净化与全局平滑的随机平滑认证方法.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
+    "🏡knowledgeGarden/🎯TODO.md",
     "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
     "🏡knowledgeGarden/😎碎碎念/2024.3.2.md",
     "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
     "🏡knowledgeGarden/😎碎碎念/2023.5.12.md",
     "🏡knowledgeGarden/😎碎碎念/2023.4.16.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/摘要.md",
-    "🏡knowledgeGarden/🎓科研记录/论文语料.md",
     "🏡knowledgeGarden/🎓科研记录/改进.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/致谢.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/3.基于对抗净化与全局平滑的随机平滑认证方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/总结与展望.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/国内外研究现状.md",
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/第二点的损失函数改进.md",
-    "🏡knowledgeGarden/🎓科研记录/MAE探索过程.md",
     "🏡knowledgeGarden/🎓科研记录/演讲稿.md",
     "🏡knowledgeGarden/🎓科研记录/实验结果.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/什么是可验证常数？.md",
@@ -367,7 +195,6 @@
     "🏡knowledgeGarden/🎓科研记录/毕业论文",
     "content/About.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
