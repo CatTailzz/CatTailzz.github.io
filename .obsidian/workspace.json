@@ -180,8 +180,23 @@
               "icon": "lucide-file",
               "title": "4.基于高效微调的去噪平滑优化方法"
             }
+          },
+          {
+            "id": "a64e68807482a2f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏡knowledgeGarden/🎯TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🎯TODO"
+            }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -253,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +278,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "进度 的反向链接列表"
+              "title": "🎯TODO 的反向链接列表"
             }
           },
           {
@@ -272,12 +287,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+                "file": "🏡knowledgeGarden/🎯TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "进度 的出链列表"
+              "title": "🎯TODO 的出链列表"
             }
           },
           {
@@ -299,10 +314,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md"
+                "file": "🏡knowledgeGarden/🎯TODO.md"
               },
               "icon": "lucide-list",
-              "title": "进度 的大纲"
+              "title": "🎯TODO 的大纲"
             }
           }
         ],
@@ -324,10 +339,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "81af6ac308bd99e5",
+  "active": "a64e68807482a2f3",
   "lastOpenFiles": [
-    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
+    "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
+    "🏡knowledgeGarden/😎碎碎念/2024.3.2.md",
+    "🏡knowledgeGarden/😎碎碎念/2024.7.10.md",
+    "🏡knowledgeGarden/😎碎碎念/2023.5.12.md",
+    "🏡knowledgeGarden/😎碎碎念/2023.4.16.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/进度.md",
+    "🏡knowledgeGarden/🎓科研记录/毕业论文/4.基于高效微调的去噪平滑优化方法.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/相关理论和技术介绍.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/毕业论文语料库.md",
     "🏡knowledgeGarden/🎓科研记录/毕业论文/大纲.md",
@@ -347,12 +367,7 @@
     "🏡knowledgeGarden/🎓科研记录/毕业论文",
     "content/About.md",
     "🏡knowledgeGarden/🎓科研记录/临时代码修改.md",
-    "🏡knowledgeGarden/😎碎碎念/2024.8.11.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/🔥基础八股.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/✍️简历素材.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/🌬秋招time line.md",
-    "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/💪秋招投递.md",
-    "content/posts/场景设计/二维码扫码登录设计.md",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南/未命名",
     "🏡knowledgeGarden/♨️JavaRoadMap/💬面试指南/面前指南",
     "content/posts/计算机网络/未命名",
